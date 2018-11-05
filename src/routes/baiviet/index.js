@@ -11,29 +11,29 @@ export default {
   async action({ store, params, path}) {
     var post;
     let seo = {}
-    if(!process.env.BROWSER || !store.getState().setting.ssr || (process.env.BROWSER && needFetch())){
-      store.dispatch(showLoading())
-      let info = 'info{ menu, menuBottom, phone, fanpage, diachi, thanhtoan, email}'
-      const resp = await fetch('/graphql', {
-        method: 'post',
-        headers: {
-          Accept: 'application/json',
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          query: '{' + info + 'seo(url: "'+ path +'"){url,title,description,og_title,og_image,og_description},getOnePost(slug: "' + params.slug + '"){title,slug,body,category, description}}',
-        }),
-        credentials: 'include',
-      });
-      let { data } = await resp.json();
-      // if (!data || !data.getOnePost) throw new Error('Failed to load data.');
-      if (!data || !data.getOnePost) {
-        return { redirect: '/' }
-      }
-      seo = data.seo || {}
-      store.dispatch(dataAction.setData(data))
-      store.dispatch(hideLoading())
-    }
+    // if(!process.env.BROWSER || !store.getState().setting.ssr || (process.env.BROWSER && needFetch())){
+    //   store.dispatch(showLoading())
+    //   let info = 'info{ menu, menuBottom, phone, fanpage, diachi, thanhtoan, email}'
+    //   const resp = await fetch('/graphql', {
+    //     method: 'post',
+    //     headers: {
+    //       Accept: 'application/json',
+    //       'Content-Type': 'application/json',
+    //     },
+    //     body: JSON.stringify({
+    //       query: '{' + info + 'seo(url: "'+ path +'"){url,title,description,og_title,og_image,og_description},getOnePost(slug: "' + params.slug + '"){title,slug,body,category, description}}',
+    //     }),
+    //     credentials: 'include',
+    //   });
+    //   let { data } = await resp.json();
+    //   // if (!data || !data.getOnePost) throw new Error('Failed to load data.');
+    //   if (!data || !data.getOnePost) {
+    //     return { redirect: '/' }
+    //   }
+    //   seo = data.seo || {}
+    //   store.dispatch(dataAction.setData(data))
+    //   store.dispatch(hideLoading())
+    // }
     return {
       title: seo.title || store.getState().data.post.value.title,
       description: seo.description || store.getState().data.post.value.description,

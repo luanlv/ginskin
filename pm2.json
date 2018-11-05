@@ -8,7 +8,7 @@
       "env": {
         "NODE_ENV": "production",
         "WEBSITE_HOSTNAME": "http://ginskin.vn",
-        "PORT": 3909
+        "PORT": 9009
       },
     }
   ]

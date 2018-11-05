@@ -12,13 +12,13 @@ class Footer extends React.Component {
           <div className="block_footer_top">
             <div className="block_taiungdung pull-left">
               <div className="logo_footer">
-                <a href="#"><img src="images/logo_footer.png" alt /></a>
+                <a href="#"><img src="/images/logo_footer.png" alt /></a>
               </div>
               <ul className="social_footer">
-                <li><a href="#"><img src="images/social_facebook.png" alt /></a></li>
-                <li><a href="#"><img src="images/social_email.png" alt /></a></li>
-                <li><a href="#"><img src="images/social_youtube.png" alt /></a></li>
-                <li><a href="#"><img src="images/social_gplus.png" alt /></a></li>
+                <li><a href="#"><img src="/images/social_facebook.png" alt /></a></li>
+                <li><a href="#"><img src="/images/social_email.png" alt /></a></li>
+                <li><a href="#"><img src="/images/social_youtube.png" alt /></a></li>
+                <li><a href="#"><img src="/images/social_gplus.png" alt /></a></li>
               </ul>
             </div>
             <div className="menu_footer pull-right">
@@ -58,7 +58,7 @@ class Footer extends React.Component {
           </div>
         </div>
         <div className="chat_support">
-          <a href><img src="images/support_text.png" alt /></a>
+          <a href><img src="/images/support_text.png" alt /></a>
         </div>
       </div>
     )

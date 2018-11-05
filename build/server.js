@@ -537,7 +537,7 @@ class Footer extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'a',
                 { href: '#' },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/logo_footer.png', alt: true })
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/logo_footer.png', alt: true })
               )
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -549,7 +549,7 @@ class Footer extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'a',
                   { href: '#' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/social_facebook.png', alt: true })
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/social_facebook.png', alt: true })
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -558,7 +558,7 @@ class Footer extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'a',
                   { href: '#' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/social_email.png', alt: true })
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/social_email.png', alt: true })
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -567,7 +567,7 @@ class Footer extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'a',
                   { href: '#' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/social_youtube.png', alt: true })
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/social_youtube.png', alt: true })
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -576,7 +576,7 @@ class Footer extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'a',
                   { href: '#' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/social_gplus.png', alt: true })
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/social_gplus.png', alt: true })
                 )
               )
             )
@@ -742,7 +742,7 @@ class Footer extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'a',
           { href: true },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/support_text.png', alt: true })
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/support_text.png', alt: true })
         )
       )
     );
@@ -780,7 +780,7 @@ class Header extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'a',
             { href: '#' },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/logo.png', alt: true })
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/logo.png', alt: true })
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'a',
@@ -893,7 +893,7 @@ class Header extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'a',
                 { href: '#', className: 'header__item__logo' },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/logo.png', alt: true })
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/logo.png', alt: true })
               )
             )
           ),
@@ -1031,7 +1031,7 @@ class Header extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'a',
               { href: 'javascript:;', className: 'search__img' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/icon_tk.png', alt: true })
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/icon_tk.png', alt: true })
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'div',
@@ -1054,7 +1054,7 @@ class Header extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'a',
               { href: '#', className: 'cart__img' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/icon_cart.png', alt: true })
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/icon_cart.png', alt: true })
             )
           )
         )
@@ -3305,11 +3305,11 @@ class Html extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
         seo && seo.og_image ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { property: 'og:image', content: 'http://ginskin.vn' + seo.og_image }) : __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { property: 'og:image', content: 'http://ginskin.vn/image/m5bZaSxOJG-banner.jpg' }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'stylesheet', href: 'http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'stylesheet', href: '/css/jquery-ui.css' }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'stylesheet', href: 'css/bootstrap.min.css', media: 'all' }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'stylesheet', href: 'css/swiper.min.css', media: 'all' }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'stylesheet', href: 'css/common.css', media: 'all' }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'stylesheet', href: 'css/ginic.css', media: 'all' }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'stylesheet', type: 'text/css', href: "/css/app.css?v=" + v }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'stylesheet', href: '/css/bootstrap.min.css', media: 'all' }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'stylesheet', href: '/css/swiper.min.css', media: 'all' }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'stylesheet', href: '/css/common.css', media: 'all' }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'stylesheet', href: '/css/ginic.css', media: 'all' }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'stylesheet', type: '/text/css', href: "/css/app.css?v=" + v }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('script', { src: 'https://cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.min.js' }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('style', { dangerouslySetInnerHTML: { __html: this.props.css } }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('script', { dangerouslySetInnerHTML: { __html: this.props.scriptTop } })
@@ -4102,7 +4102,7 @@ class Main extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_facebook__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_facebook___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_facebook__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__core_history__ = __webpack_require__(13);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Main; });
+/* unused harmony export default */
 
 
 
@@ -13127,12 +13127,611 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
       null,
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'div',
-        { id: 'mainContent' },
+        { className: 'block_bannerhome' },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'div',
           { className: 'container' },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__components_Partials_Main4__["a" /* default */], { post: this.props.post }),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_Partials_Aside__["a" /* default */], null)
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'a',
+            { href: true },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/banner_cap2.png', alt: true })
+          )
+        )
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'block_benh' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'container' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'row' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'col-md-4 col-sm-4 news-block__item' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'news-block__item__img' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { href: '#' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/img_tin1.png', alt: true })
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'news-block_vall' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: true },
+                    'Xem ngay'
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'news-block__inner__txt' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'h5',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'a',
+                      { href: '#' },
+                      'T\xECnh tr\u1EA1ng s\u1EE9c kh\u1ECFe tim m\u1EA1ch ng\u01B0\u1EDDi Vi\u1EC7t - Nh\u1EEFng con s\u1ED1 \u0111\xE1ng b\xE1o \u0111\u1ED9ng'
+                    )
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'news-block_title' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: true },
+                    'B\u1EC7nh ngo\xE0i da'
+                  )
+                )
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'col-md-4 col-sm-4 news-block__item' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'news-block__item__img' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { href: '#' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/img_tin1.png', alt: true })
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'news-block_vall' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: true },
+                    'Xem ngay'
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'news-block__inner__txt' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'h5',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'a',
+                      { href: '#' },
+                      'T\xECnh tr\u1EA1ng s\u1EE9c kh\u1ECFe tim m\u1EA1ch ng\u01B0\u1EDDi Vi\u1EC7t - Nh\u1EEFng con s\u1ED1 \u0111\xE1ng b\xE1o \u0111\u1ED9ng'
+                    )
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'news-block_title' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: true },
+                    'B\u1EC7nh ngo\xE0i da'
+                  )
+                )
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'col-md-4 col-sm-4 news-block__item' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'news-block__item__img' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { href: '#' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/img_tin1.png', alt: true })
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'news-block_vall' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: true },
+                    'Xem ngay'
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'news-block__inner__txt' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'h5',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'a',
+                      { href: '#' },
+                      'T\xECnh tr\u1EA1ng s\u1EE9c kh\u1ECFe tim m\u1EA1ch ng\u01B0\u1EDDi Vi\u1EC7t - Nh\u1EEFng con s\u1ED1 \u0111\xE1ng b\xE1o \u0111\u1ED9ng'
+                    )
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'news-block_title' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: true },
+                    'B\u1EC7nh ngo\xE0i da'
+                  )
+                )
+              )
+            )
+          )
+        )
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'nd_chitiet w_100' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'container' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'col-md-8 col-xs-12' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'h1',
+              null,
+              'Tr\u1ECB n\xE1m da b\u1EB1ng c\xE0 chua'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'tt_ndchitiet' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'ul',
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'li',
+                  null,
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-clock-o' }),
+                  '22/12/2017'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'li',
+                  null,
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-user' }),
+                  'Nguyen Minh'
+                )
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'body_ndchitiet' },
+              'Ch\u1EE9a nhi\u1EC1u licopen v\xE0 c\xE1c vitamin, t\u1EEB l\xE2u c\xE0 chua \u0111\xE3 \u0111\u01B0\u1EE3c bi\u1EBFt \u0111\u1EBFn v\u1EDBi c\xF4ng d\u1EE5ng l\xE0m tr\u1EAFng da, gi\xFAp da s\xE1ng v\xE0 m\u1ECBn m\xE0ng h\u01A1n, ng\u0103n ng\u1EEBa l\xE3o h\xF3a, tr\u1ECB m\u1EE5n v\xE0 tr\u1ECB n\xE1m hi\u1EC7u qu\u1EA3. \u0110\u1EC3 tr\u1ECB n\xE1m, r\u1EA5t \u0111\u01A1n gi\u1EA3n, b\u1EA1n ch\u1EC9 c\u1EA7n \u0103n c\xE0 chua ho\u1EB7c u\u1ED1ng n\u01B0\u1EDBc \xE9p c\xE0 chua h\xE0ng ng\xE0y \u0111\u1EC3 l\xE0m \u0111\u1EB9p da t\u1EEB b\xEAn trong. ',
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+              'Qu\xEAn kh\xF4ng m\u1EB7c \xE1o ch\u1ED1ng n\u1EAFng, \u0111eo kh\u1EA9u trang khi \u0111i ngo\xE0i tr\u1EDDi n\u1EAFng, da c\u1EE7a b\u1EA1n b\u1ECB r\xE1m n\u1EAFng, b\u1ECFng r\xE1t v\xE0 h\xECnh th\xE0nh c\xE1c v\u1EBFt th\xE2m, b\u1EA1n c\xF3 th\u1EC3 s\u1EED d\u1EE5ng h\u1ED7n h\u1EE3p n\u01B0\u1EDBc \xE9p c\xE0 chua d\u01B0a chu\u1ED9t, ho\u1EB7c c\xE0 chua s\u1EEFa t\u01B0\u01A1i \u0111\u1EC3 kh\u1EAFc ph\u1EE5c t\xECnh tr\u1EA1ng n\xE0y. S\u1EED d\u1EE5ng h\u1ED7n h\u1EE3p n\xE0y h\xE0ng ng\xE0y s\u1EBD gi\xFAp v\u1EE5ng da b\u1ECB ch\xE1y n\u1EAFng c\u1EE7a b\u1EA1n d\u1ECBu \u0111i, \u0111\u1ED3ng th\u1EDDi gi\xFAp gi\u1EA3m nguy c\u01A1 b\u1ECB n\xE1m da cho b\u1EA1n.',
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+              'T bi\u1EC7t n\xF3 \u0111\u01B0\u1EE3c coi l\xE0 \u201Cth\u1EA7n d\u01B0\u1EE3c\u201D t\u1EEB thi\xEAn nhi\xEAn trong vi\u1EC7c ch\u1EEFa n\xE1m v\xE0 kh\xF4 cho da. Mu\u1ED1n c\xF3 m\u1ED9t l\xE0n da tr\u1EAFng m\u1ECBn m\xE0ng v\xE0 kh\xF4ng v\u1EBFt th\xE2m, h\xE3y s\u1EED d\u1EE5ng m\u1EB7t n\u1EA1 \u0111\xE0o v\xE0 s\u1EEFa chua th\u01B0\u1EDDng xuy\xEAn \u0111\u1EC3 \u0111\u1EA1t \u0111\u01B0\u1EE3c mong \u01B0\u1EDBc \u0111\xF3.',
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'p',
+                { className: 'text-center' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/anh_chitiet.png', alt: true })
+              ),
+              'Ch\u1EE9a nhi\u1EC1u licopen v\xE0 c\xE1c vitamin, t\u1EEB l\xE2u c\xE0 chua \u0111\xE3 \u0111\u01B0\u1EE3c bi\u1EBFt \u0111\u1EBFn v\u1EDBi c\xF4ng d\u1EE5ng l\xE0m tr\u1EAFng da, gi\xFAp da s\xE1ng v\xE0 m\u1ECBn m\xE0ng h\u01A1n, ng\u0103n ng\u1EEBa l\xE3o h\xF3a, tr\u1ECB m\u1EE5n v\xE0 tr\u1ECB n\xE1m hi\u1EC7u qu\u1EA3. \u0110\u1EC3 tr\u1ECB n\xE1m, r\u1EA5t \u0111\u01A1n gi\u1EA3n, b\u1EA1n ch\u1EC9 c\u1EA7n \u0103n c\xE0 chua ho\u1EB7c u\u1ED1ng n\u01B0\u1EDBc \xE9p c\xE0 chua h\xE0ng ng\xE0y \u0111\u1EC3 l\xE0m \u0111\u1EB9p da t\u1EEB b\xEAn trong. ',
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+              'Qu\xEAn kh\xF4ng m\u1EB7c \xE1o ch\u1ED1ng n\u1EAFng, \u0111eo kh\u1EA9u trang khi \u0111i ngo\xE0i tr\u1EDDi n\u1EAFng, da c\u1EE7a b\u1EA1n b\u1ECB r\xE1m n\u1EAFng, b\u1ECFng r\xE1t v\xE0 h\xECnh th\xE0nh c\xE1c v\u1EBFt th\xE2m, b\u1EA1n c\xF3 th\u1EC3 s\u1EED d\u1EE5ng h\u1ED7n h\u1EE3p n\u01B0\u1EDBc \xE9p c\xE0 chua d\u01B0a chu\u1ED9t, ho\u1EB7c c\xE0 chua s\u1EEFa t\u01B0\u01A1i \u0111\u1EC3 kh\u1EAFc ph\u1EE5c t\xECnh tr\u1EA1ng n\xE0y. S\u1EED d\u1EE5ng h\u1ED7n h\u1EE3p n\xE0y h\xE0ng ng\xE0y s\u1EBD gi\xFAp v\u1EE5ng da b\u1ECB ch\xE1y n\u1EAFng c\u1EE7a b\u1EA1n d\u1ECBu \u0111i, \u0111\u1ED3ng th\u1EDDi gi\xFAp gi\u1EA3m nguy c\u01A1 b\u1ECB n\xE1m da cho b\u1EA1n.',
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+              'T bi\u1EC7t n\xF3 \u0111\u01B0\u1EE3c coi l\xE0 \u201Cth\u1EA7n d\u01B0\u1EE3c\u201D t\u1EEB thi\xEAn nhi\xEAn trong vi\u1EC7c ch\u1EEFa n\xE1m v\xE0 kh\xF4 cho da. Mu\u1ED1n c\xF3 m\u1ED9t l\xE0n da tr\u1EAFng m\u1ECBn m\xE0ng v\xE0 kh\xF4ng v\u1EBFt th\xE2m, h\xE3y s\u1EED d\u1EE5ng m\u1EB7t n\u1EA1 \u0111\xE0o v\xE0 s\u1EEFa chua th\u01B0\u1EDDng xuy\xEAn \u0111\u1EC3 \u0111\u1EA1t \u0111\u01B0\u1EE3c mong \u01B0\u1EDBc \u0111\xF3.',
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null)
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'col-md-4 col-xs-12 bl_ndchitiet_right' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'bai_newest' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'h3',
+                { className: 'text-uppercase block_title_left w_100 text-left' },
+                'B\xE0i m\u1EDBi nh\u1EA5t'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'ul',
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'li',
+                  null,
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: true },
+                    'Tr\u1ECB n\xE1m v\u1EDBi hoa qu\u1EA3'
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'li',
+                  null,
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: true },
+                    'C\xE1ch tr\u1ECB n\xE1m v\u1EDBi c\xE0 chua'
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'li',
+                  null,
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: true },
+                    'Tr\u1ECB n\xE1m v\u1EDBi hoa qu\u1EA3'
+                  )
+                )
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'bai_good' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'h3',
+                { className: 'text-uppercase block_title_left w_100 text-left' },
+                'B\xE0i hay nh\u1EA5t'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'ul',
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'li',
+                  null,
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: true },
+                    'Tr\u1ECB n\xE1m v\u1EDBi hoa qu\u1EA3'
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'li',
+                  null,
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: true },
+                    'C\xE1ch tr\u1ECB n\xE1m v\u1EDBi c\xE0 chua'
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'li',
+                  null,
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: true },
+                    'Tr\u1ECB n\xE1m v\u1EDBi hoa qu\u1EA3'
+                  )
+                )
+              )
+            )
+          )
+        )
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'block_bailq w_100' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'container' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'h3',
+            { className: 'text-uppercase block_title_left w_100 text-left' },
+            'B\xE0i li\xEAn quan'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'ds_bai' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'row' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'col-md-3 col-sm-3 news-block__item' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'news-block__item__img' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: '#' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/img_tin1.png', alt: true })
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'news-block__inner__txt' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'h5',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'a',
+                      { href: '#' },
+                      '110 c\xE1ch tr\u1ECB n\xE1m v\u1EDBi hoa qu\u1EA3 t\u1EA1i nh\xE0 t\u1ED1t nh\u1EA5t'
+                    )
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'news-block_lead' },
+                  'Ch\u1ED1ng Oxy h\xF3a m\u1EA1nh g\u1EA5p 100 l\u1EA7n Vitamin E. Gi\xFAp b\u1EA3o v\u1EC7 ti\u1EBFn tr\xECnh t\xE1i t\u1EA1o collagen Ch\u1ED1ng Oxy h\xF3a m\u1EA1nh g\u1EA5p 100 l\u1EA7n Vitamin E.'
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'col-md-3 col-sm-3 news-block__item' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'news-block__item__img' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: '#' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/img_tin1.png', alt: true })
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'news-block__inner__txt' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'h5',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'a',
+                      { href: '#' },
+                      '110 c\xE1ch tr\u1ECB n\xE1m v\u1EDBi hoa qu\u1EA3 t\u1EA1i nh\xE0 t\u1ED1t nh\u1EA5t'
+                    )
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'news-block_lead' },
+                  'Ch\u1ED1ng Oxy h\xF3a m\u1EA1nh g\u1EA5p 100 l\u1EA7n Vitamin E. Gi\xFAp b\u1EA3o v\u1EC7 ti\u1EBFn tr\xECnh t\xE1i t\u1EA1o collagen Ch\u1ED1ng Oxy h\xF3a m\u1EA1nh g\u1EA5p 100 l\u1EA7n Vitamin E.'
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'col-md-3 col-sm-3 news-block__item' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'news-block__item__img' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: '#' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/img_tin1.png', alt: true })
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'news-block__inner__txt' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'h5',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'a',
+                      { href: '#' },
+                      '110 c\xE1ch tr\u1ECB n\xE1m v\u1EDBi hoa qu\u1EA3 t\u1EA1i nh\xE0 t\u1ED1t nh\u1EA5t'
+                    )
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'news-block_lead' },
+                  'Ch\u1ED1ng Oxy h\xF3a m\u1EA1nh g\u1EA5p 100 l\u1EA7n Vitamin E. Gi\xFAp b\u1EA3o v\u1EC7 ti\u1EBFn tr\xECnh t\xE1i t\u1EA1o collagen Ch\u1ED1ng Oxy h\xF3a m\u1EA1nh g\u1EA5p 100 l\u1EA7n Vitamin E.'
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'col-md-3 col-sm-3 news-block__item' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'news-block__item__img' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: '#' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/img_tin1.png', alt: true })
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'news-block__inner__txt' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'h5',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'a',
+                      { href: '#' },
+                      '110 c\xE1ch tr\u1ECB n\xE1m v\u1EDBi hoa qu\u1EA3 t\u1EA1i nh\xE0 t\u1ED1t nh\u1EA5t'
+                    )
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'news-block_lead' },
+                  'Ch\u1ED1ng Oxy h\xF3a m\u1EA1nh g\u1EA5p 100 l\u1EA7n Vitamin E. Gi\xFAp b\u1EA3o v\u1EC7 ti\u1EBFn tr\xECnh t\xE1i t\u1EA1o collagen Ch\u1ED1ng Oxy h\xF3a m\u1EA1nh g\u1EA5p 100 l\u1EA7n Vitamin E.'
+                )
+              )
+            )
+          )
+        )
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'block_asque_tg w_100' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'container' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'h3',
+            { className: 'text-uppercase block_title_left w_100 text-left' },
+            'T\u1EA5t c\u1EA3 c\xE1c c\xE2u h\u1ECFi'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'all_cauhoi' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'ul',
+              null,
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'li',
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { href: true },
+                  '110 c\xE1ch tr\u1ECB n\xE1m v\u1EDBi hoa qu\u1EA3 t\u1EA1i nh\xE0 t\u1ED1t nh\u1EA5t'
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'li',
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { href: true },
+                  '110 c\xE1ch tr\u1ECB n\xE1m v\u1EDBi hoa qu\u1EA3 t\u1EA1i nh\xE0 t\u1ED1t nh\u1EA5t'
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'li',
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { href: true },
+                  '110 c\xE1ch tr\u1ECB n\xE1m v\u1EDBi hoa qu\u1EA3 t\u1EA1i nh\xE0 t\u1ED1t nh\u1EA5t'
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'li',
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { href: true },
+                  '110 c\xE1ch tr\u1ECB n\xE1m v\u1EDBi hoa qu\u1EA3 t\u1EA1i nh\xE0 t\u1ED1t nh\u1EA5t'
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'li',
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { href: true },
+                  '110 c\xE1ch tr\u1ECB n\xE1m v\u1EDBi hoa qu\u1EA3 t\u1EA1i nh\xE0 t\u1ED1t nh\u1EA5t'
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'li',
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { href: true },
+                  '110 c\xE1ch tr\u1ECB n\xE1m v\u1EDBi hoa qu\u1EA3 t\u1EA1i nh\xE0 t\u1ED1t nh\u1EA5t'
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'li',
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { href: true },
+                  '110 c\xE1ch tr\u1ECB n\xE1m v\u1EDBi hoa qu\u1EA3 t\u1EA1i nh\xE0 t\u1ED1t nh\u1EA5t'
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'li',
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { href: true },
+                  '110 c\xE1ch tr\u1ECB n\xE1m v\u1EDBi hoa qu\u1EA3 t\u1EA1i nh\xE0 t\u1ED1t nh\u1EA5t'
+                )
+              )
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'viewall_cauhoi text-center w_100' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'a',
+              { href: true },
+              'Xem th\xEAm'
+            )
+          )
+        )
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'h3',
+        { className: 'text-uppercase block_title text-center w_100' },
+        'T\u01B0 v\u1EA5n ngay'
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'block_dathang block_guich w_100' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'container' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'col-md-12 col-xs-12' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'form',
+              { className: 'form_dathang' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'form_left col-md-6 col-sm-12 col-xs-12' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'col-md-12 col-sm-12 col-xs-12 f_item no-gutter' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', className: 'form-control', placeholder: 'H\u1ECD v\xE0 T\xEAn' })
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'col-md-12 col-sm-12 col-xs-12 f_item no-gutter' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', className: 'form-control', placeholder: 'S\u1ED1 \u0111i\u1EC7n tho\u1EA1i' })
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'col-md-12 col-sm-12 col-xs-12 f_item no-gutter' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', className: 'form-control', placeholder: 'Email' })
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'form_right col-md-6 col-sm-12 col-xs-12' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'col-md-12 col-sm-12 col-xs-12 f_item no-gutter' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', className: 'form-control', placeholder: 'Ti\xEAu \u0111\u1EC1' })
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'col-md-12 col-sm-12 col-xs-12 f_item no-gutter' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('textarea', { rows: 4, height: 180, className: 'form-control', defaultValue: "" })
+                )
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'col-md-12 text-center col-sm-12 col-xs-12 f_item' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'button',
+                { className: 'btn_guichngay' },
+                'Nh\u1EADn t\u01B0 v\u1EA5n ngay'
+              )
+            )
+          )
         )
       )
     );
@@ -13172,29 +13771,29 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
     return _asyncToGenerator(function* () {
       var post;
       let seo = {};
-      if (true) {
-        store.dispatch(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6_react_redux_loading_bar__["showLoading"])());
-        let info = 'info{ menu, menuBottom, phone, fanpage, diachi, thanhtoan, email}';
-        const resp = yield __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__core_fetch__["a" /* default */])('/graphql', {
-          method: 'post',
-          headers: {
-            Accept: 'application/json',
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({
-            query: '{' + info + 'seo(url: "' + path + '"){url,title,description,og_title,og_image,og_description},getOnePost(slug: "' + params.slug + '"){title,slug,body,category, description}}'
-          }),
-          credentials: 'include'
-        });
-        let { data } = yield resp.json();
-        // if (!data || !data.getOnePost) throw new Error('Failed to load data.');
-        if (!data || !data.getOnePost) {
-          return { redirect: '/' };
-        }
-        seo = data.seo || {};
-        store.dispatch(__WEBPACK_IMPORTED_MODULE_5__actions_data__["a" /* setData */](data));
-        store.dispatch(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6_react_redux_loading_bar__["hideLoading"])());
-      }
+      // if(!process.env.BROWSER || !store.getState().setting.ssr || (process.env.BROWSER && needFetch())){
+      //   store.dispatch(showLoading())
+      //   let info = 'info{ menu, menuBottom, phone, fanpage, diachi, thanhtoan, email}'
+      //   const resp = await fetch('/graphql', {
+      //     method: 'post',
+      //     headers: {
+      //       Accept: 'application/json',
+      //       'Content-Type': 'application/json',
+      //     },
+      //     body: JSON.stringify({
+      //       query: '{' + info + 'seo(url: "'+ path +'"){url,title,description,og_title,og_image,og_description},getOnePost(slug: "' + params.slug + '"){title,slug,body,category, description}}',
+      //     }),
+      //     credentials: 'include',
+      //   });
+      //   let { data } = await resp.json();
+      //   // if (!data || !data.getOnePost) throw new Error('Failed to load data.');
+      //   if (!data || !data.getOnePost) {
+      //     return { redirect: '/' }
+      //   }
+      //   seo = data.seo || {}
+      //   store.dispatch(dataAction.setData(data))
+      //   store.dispatch(hideLoading())
+      // }
       return {
         title: seo.title || store.getState().data.post.value.title,
         description: seo.description || store.getState().data.post.value.description,
@@ -14448,23 +15047,23 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
   action({ store, query, path }) {
     return _asyncToGenerator(function* () {
       let seo = {};
-      if (true) {
-        let info = 'info{ menu, menuBottom, phone, fanpage, diachi, thanhtoan, email}';
-        const resp = yield __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__core_fetch__["a" /* default */])('/graphql', {
-          method: 'post',
-          headers: {
-            Accept: 'application/json',
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({
-            query: '{' + info + 'seo(url: "' + path + '"){url,title,description,og_title,og_image,og_description}}'
-          }),
-          credentials: 'include'
-        });
+      // if(!process.env.BROWSER || !store.getState().setting.ssr || (process.env.BROWSER && needFetch())){
+      //   let info = 'info{ menu, menuBottom, phone, fanpage, diachi, thanhtoan, email}'
+      //   const resp = await fetch('/graphql', {
+      //     method: 'post',
+      //     headers: {
+      //       Accept: 'application/json',
+      //       'Content-Type': 'application/json',
+      //     },
+      //     body: JSON.stringify({
+      //       query: '{' + info + 'seo(url: "'+ path +'"){url,title,description,og_title,og_image,og_description}}',
+      //     }),
+      //     credentials: 'include',
+      //   });
 
-        const { data } = yield resp.json();
-        seo = data.seo || {};
-      }
+      //   const {data} = await resp.json();
+      //   seo = data.seo || {}
+      // }
 
       return {
         title: seo.title || 'Câu hỏi thuờng gặp',
@@ -15306,30 +15905,30 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
       // process.env.BROWSER
       let seo = {};
 
-      if (true) {
-        store.dispatch(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6_react_redux_loading_bar__["showLoading"])());
-        let info = 'info{ menu, menuBottom, phone, fanpage, diachi, thanhtoan, email}';
-        let noibat = 'getNoiBat{name, slug, price, coverUrl, description, saleOff, body, created_at}';
-        let khuyenmai = 'getKhuyenMai{name, slug, price, coverUrl, description, saleOff, body, created_at}';
-        let banchay = 'getBanChay{name, slug, price, coverUrl, description, saleOff, body, created_at}';
-        const resp = yield __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__core_fetch__["a" /* default */])('/graphql', {
-          method: 'post',
-          headers: {
-            Accept: 'application/json',
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({
-            query: '{' + noibat + khuyenmai + banchay + info + 'seo(url: "' + path + '"){url,title,description,og_title,og_image,og_description},getProducts{name, slug, price, coverUrl, description, saleOff, body, created_at}, getNews(page: 1 ){page,totalPage,data{title, slug, coverUrl, description}}, getFoodNews(page: 1 ){page,totalPage,data{title, slug, coverUrl, description}} }'
-          }),
-          credentials: 'include'
-        });
+      // if(!process.env.BROWSER || !store.getState().setting.ssr || (process.env.BROWSER && needFetch())) {
+      //   store.dispatch(showLoading())
+      //   let info = 'info{ menu, menuBottom, phone, fanpage, diachi, thanhtoan, email}'
+      //   let noibat = 'getNoiBat{name, slug, price, coverUrl, description, saleOff, body, created_at}'
+      //   let khuyenmai = 'getKhuyenMai{name, slug, price, coverUrl, description, saleOff, body, created_at}'
+      //   let banchay = 'getBanChay{name, slug, price, coverUrl, description, saleOff, body, created_at}'
+      //   const resp = await fetch('/graphql', {
+      //     method: 'post',
+      //     headers: {
+      //       Accept: 'application/json',
+      //       'Content-Type': 'application/json',
+      //     },
+      //     body: JSON.stringify({
+      //       query: '{' + noibat + khuyenmai + banchay + info  + 'seo(url: "'+ path +'"){url,title,description,og_title,og_image,og_description},getProducts{name, slug, price, coverUrl, description, saleOff, body, created_at}, getNews(page: 1 ){page,totalPage,data{title, slug, coverUrl, description}}, getFoodNews(page: 1 ){page,totalPage,data{title, slug, coverUrl, description}} }',
+      //     }),
+      //     credentials: 'include',
+      //   });
 
-        const { data } = yield resp.json();
-        seo = data.seo || {};
-        if (!data) throw new Error('Failed to load the news feed.');
-        store.dispatch(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__actions_data__["a" /* setData */])(data));
-        store.dispatch(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6_react_redux_loading_bar__["hideLoading"])());
-      }
+      //   const {data} = await resp.json();
+      //   seo = data.seo || {}
+      //   if (!data) throw new Error('Failed to load the news feed.');
+      //   store.dispatch(setData(data))
+      //   store.dispatch(hideLoading())
+      // }
 
       return {
         title: seo.title || 'Trang chủ',

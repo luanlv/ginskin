@@ -9,23 +9,23 @@ export default {
   path: '/hoi-dap-chuyen-gia',
   async action({ store, query, path }) {
     let seo = {}
-    if(!process.env.BROWSER || !store.getState().setting.ssr || (process.env.BROWSER && needFetch())){
-      let info = 'info{ menu, menuBottom, phone, fanpage, diachi, thanhtoan, email}'
-      const resp = await fetch('/graphql', {
-        method: 'post',
-        headers: {
-          Accept: 'application/json',
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          query: '{' + info + 'seo(url: "'+ path +'"){url,title,description,og_title,og_image,og_description}}',
-        }),
-        credentials: 'include',
-      });
+    // if(!process.env.BROWSER || !store.getState().setting.ssr || (process.env.BROWSER && needFetch())){
+    //   let info = 'info{ menu, menuBottom, phone, fanpage, diachi, thanhtoan, email}'
+    //   const resp = await fetch('/graphql', {
+    //     method: 'post',
+    //     headers: {
+    //       Accept: 'application/json',
+    //       'Content-Type': 'application/json',
+    //     },
+    //     body: JSON.stringify({
+    //       query: '{' + info + 'seo(url: "'+ path +'"){url,title,description,og_title,og_image,og_description}}',
+    //     }),
+    //     credentials: 'include',
+    //   });
 
-      const {data} = await resp.json();
-      seo = data.seo || {}
-    }
+    //   const {data} = await resp.json();
+    //   seo = data.seo || {}
+    // }
 
     return {
       title: seo.title || 'Câu hỏi thuờng gặp',

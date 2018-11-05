@@ -10,7 +10,7 @@ class Header extends React.Component {
       <div>
           <div className="topbar fixed-top clearfix">
           <div className="head_topbar">
-            <a href="#"><img src="images/logo.png" alt /></a>
+            <a href="#"><img src="/images/logo.png" alt /></a>
             <a className="icon_menu" href="javascript:;"><i className="fa fa-ellipsis-v" aria-hidden="true" /></a>
           </div>
           <nav className="menu_ex_mobile">
@@ -32,7 +32,7 @@ class Header extends React.Component {
           <div className="container">
             <header className="header pull-left">
               <div className="header__item">
-                <a href="#"className="header__item__logo"><img src="images/logo.png" alt /></a>
+                <a href="#"className="header__item__logo"><img src="/images/logo.png" alt /></a>
               </div>
             </header>
             <div className="hotline_diachi">
@@ -71,7 +71,7 @@ class Header extends React.Component {
               <a href="#"className="menu__item">LIÊN HỆ - ĐẶT HÀNG</a>
             </div>
             <div className="search">
-              <a href="javascript:;" className="search__img"><img src="images/icon_tk.png" alt /></a>
+              <a href="javascript:;" className="search__img"><img src="/images/icon_tk.png" alt /></a>
               <div className="search_bar">
                 <form action method="post">
                   <input placeholder="Viết gì đó" type="text" defaultValue /> 
@@ -80,7 +80,7 @@ class Header extends React.Component {
               </div>
             </div>
             <div className="cart">
-              <a href="#"className="cart__img"><img src="images/icon_cart.png" alt /></a>
+              <a href="#"className="cart__img"><img src="/images/icon_cart.png" alt /></a>
             </div>
           </div>
         </div>

@@ -68,11 +68,11 @@ class Html extends React.Component {
           {(seo && seo.og_image) ? (<meta property="og:image" content={'http://ginskin.vn' + seo.og_image} />) : (<meta property="og:image" content='http://ginskin.vn/image/m5bZaSxOJG-banner.jpg' />)}
           <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
           <link rel="stylesheet" href="/css/jquery-ui.css" />
-          <link rel="stylesheet" href="css/bootstrap.min.css" media="all" />
-	        <link rel="stylesheet" href="css/swiper.min.css" media="all" />
-          <link rel="stylesheet" href="css/common.css" media="all" />
-          <link rel="stylesheet" href="css/ginic.css" media="all" />
-          <link rel="stylesheet" type="text/css"  href={"/css/app.css?v=" +v }/>
+          <link rel="stylesheet" href="/css/bootstrap.min.css" media="all" />
+	        <link rel="stylesheet" href="/css/swiper.min.css" media="all" />
+          <link rel="stylesheet" href="/css/common.css" media="all" />
+          <link rel="stylesheet" href="/css/ginic.css" media="all" />
+          <link rel="stylesheet" type="/text/css"  href={"/css/app.css?v=" +v }/>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.min.js" />
           <style dangerouslySetInnerHTML={{ __html: this.props.css }} />
           <script dangerouslySetInnerHTML={{ __html: this.props.scriptTop }} />
