@@ -113,7 +113,7 @@ function localUrl(url) {
     return url;
   }
 
-  return `http://${__WEBPACK_IMPORTED_MODULE_2__config__["d" /* host */]}${url}`;
+  return `${__WEBPACK_IMPORTED_MODULE_2__config__["d" /* host */]}${url}`;
 }
 
 function localFetch(url, options) {

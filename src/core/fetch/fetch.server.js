@@ -23,7 +23,7 @@ function localUrl(url) {
     return url;
   }
 
-  return `http://${host}${url}`;
+  return `${host}${url}`;
 }
 
 function localFetch(url, options) {
