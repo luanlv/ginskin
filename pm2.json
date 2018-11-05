@@ -1,13 +1,13 @@
 {
   "apps": [
     {
-      "name": "namduoc",
+      "name": "ginskin",
       "script": "build/server.js",
       "exec_interpreter": "node",
       "exec_mode": "fork",
       "env": {
         "NODE_ENV": "production",
-        "WEBSITE_HOSTNAME": "https://namduocquany.com",
+        "WEBSITE_HOSTNAME": "http://ginskin.vn",
         "PORT": 3909
       },
     }
