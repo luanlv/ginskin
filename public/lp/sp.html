@@ -1,0 +1,1177 @@
+
+<!DOCTYPE html>
+<html lang="vi"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Home - Landingpage</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="/landingpage/font-awesome.min.css">
+    <link rel="stylesheet" href="/landingpage/bootstrap.min.css">
+    <link rel="stylesheet" href="/landingpage/uikit.min.css">
+    <link rel="stylesheet" href="/landingpage/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="/landingpage/fonts.css">
+    <link rel="stylesheet" href="/landingpage/style.css">
+    <!--JS-->
+    <script src="/landingpage/jquery-3.3.1.js"></script>
+    <script src="/landingpage/popper.min.js"></script>
+    <script src="/landingpage/bootstrap.min.js"></script>
+    <script src="/landingpage/uikit.min.js"></script>
+    <script src="/landingpage/uikit-icons.min.js"></script>
+    <script src="/landingpage/jquery.fancybox.min.js"></script>
+    <script src="/landingpage/readmore.min.js"></script>
+    <script src="/landingpage/main.js"></script>
+<style type="text/css"> undefined + [data-readmore-toggle], undefined[data-readmore]{display: block; width: 100%;}undefined[data-readmore]{transition: height 75ms;overflow: hidden;}</style><style type="text/css">.backpack.dropzone {
+  font-family: 'SF UI Display', 'Segoe UI';
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 150px;
+  font-weight: lighter;
+  color: white;
+  will-change: right;
+  z-index: 2147483647;
+  bottom: 20%;
+  background: #333;
+  position: fixed;
+  user-select: none;
+  transition: left .5s, right .5s;
+  right: 0px; }
+  .backpack.dropzone .animation {
+    height: 80px;
+    width: 250px;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+  .backpack.dropzone .title::before {
+    content: 'Save to'; }
+  .backpack.dropzone.closed {
+    right: -250px; }
+  .backpack.dropzone.hover .animation {
+    animation: sxt-play-anim-hover 0.91s steps(21);
+    animation-fill-mode: forwards;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+
+@keyframes sxt-play-anim-hover {
+  from {
+    background-position: 0px; }
+  to {
+    background-position: -5250px; } }
+  .backpack.dropzone.saving .title::before {
+    content: 'Saving to'; }
+  .backpack.dropzone.saving .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saving_loop.png") left center;
+    animation: sxt-play-anim-saving steps(59) 2.46s infinite; }
+
+@keyframes sxt-play-anim-saving {
+  100% {
+    background-position: -14750px; } }
+  .backpack.dropzone.saved .title::before {
+    content: 'Saved to'; }
+  .backpack.dropzone.saved .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saved.png") left center;
+    animation: sxt-play-anim-saved steps(20) 0.83s forwards; }
+
+@keyframes sxt-play-anim-saved {
+  100% {
+    background-position: -5000px; } }
+</style><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#1d3c78;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
+.fb_customer_chat_bounce_in_v2{animation-duration:300ms;animation-name:fb_bounce_in_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2{animation-duration:300ms;animation-name:fb_bounce_out_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_v2_mobile_chat_started{animation-duration:300ms;animation-name:fb_bounce_in_v2_mobile_chat_started;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2_mobile_chat_started{animation-duration:300ms;animation-name:fb_bounce_out_v2_mobile_chat_started;transition-timing-function:ease-in}.fb_customer_chat_bubble_pop_in{animation-duration:250ms;animation-name:fb_customer_chat_bubble_bounce_in_animation}.fb_customer_chat_bubble_animated_no_badge{box-shadow:0 3px 12px rgba(0, 0, 0, .15);transition:box-shadow 150ms linear}.fb_customer_chat_bubble_animated_no_badge:hover{box-shadow:0 5px 24px rgba(0, 0, 0, .3)}.fb_customer_chat_bubble_animated_with_badge{box-shadow:-5px 4px 14px rgba(0, 0, 0, .15);transition:box-shadow 150ms linear}.fb_customer_chat_bubble_animated_with_badge:hover{box-shadow:-5px 8px 24px rgba(0, 0, 0, .2)}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}.fb_mobile_overlay_active{background-color:#fff;height:100%;overflow:hidden;position:fixed;visibility:hidden;width:100%}@keyframes fb_bounce_in_v2{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}50%{transform:scale(1.03, 1.03);transform-origin:bottom right}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}}@keyframes fb_bounce_in_v2_mobile_chat_started{0%{opacity:0;top:20px}100%{opacity:1;top:0}}@keyframes fb_bounce_out_v2{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}}@keyframes fb_bounce_out_v2_mobile_chat_started{0%{opacity:1;top:0}100%{opacity:0;top:20px}}@keyframes fb_customer_chat_bubble_bounce_in_animation{0%{bottom:6pt;opacity:0;transform:scale(0, 0);transform-origin:center}70%{bottom:18pt;opacity:1;transform:scale(1.2, 1.2)}100%{transform:scale(1, 1)}}</style></head>
+<body>
+<section id="root">
+    <div class="uk-position-relative">
+        <div id="header" class="uk-position-top uk-position-z-index uk-visible@m">
+            <div class="uk-container">
+                <nav class="uk-navbar-container uk-navbar-transparent uk-navbar" id="menu" uk-navbar="">
+                    <div class="uk-navbar-left">
+                        <ul class="uk-navbar-nav">
+                            <li class="uk-active"><a href="/">Trang chủ</a></li>
+                            <li><a href="#">tư vấn nám</a></li>
+                            <li><a href="#">thành phần</a></li>
+                            <li><a href="#">hướng dẫn sử dụng</a></li>
+                            <li><a href="#">chia sẻ người dùng</a></li>
+                            <li><a href="#">câu hỏi thường gặp</a></li>
+                            <li><a href="#" class="btn btn-danger">Đặt hàng</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <nav id="menu_m" uk-sticky="" class="navbar navbar-expand-lg uk-position-z-index navbar-light bg-light uk-hidden@m uk-sticky">
+            <a class="navbar-brand" href="#"><img src="/landingpage/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">TRANG CHỦ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TƯ VẤN NÁM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">THÀNH PHẦN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HƯỚNG DẪN SỬ DỤNG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CHIA SẺ NGƯỜI DÙNG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CÂU HỎI THƯỜNG GẶP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-danger text-white" href="#">ĐẶT HÀNG</a>
+                    </li>
+                </ul>
+            </div>
+        </nav><div class="uk-sticky-placeholder" style="height: 0px; margin: 0px;" hidden=""></div>
+        <div class="box10 uk-position-relative">
+            <img class="uk-position-bottom-center uk-position-z-index" src="/landingpage/bg_slider.png" alt="">
+            <div class="uk-section"></div>
+            <div class="top uk-visible@m">
+                <div class="uk-container">
+                    <div class="uk-grid uk-flex-between uk-flex-middle">
+                        <div class="uk-width-1-3@m">
+                            <img class="uk-margin" src="/landingpage/logo1.png" alt="">
+                            <div class="box11 py-3 uk-margin-small uk-position-relative">
+                                <div class="uk-position-relative txt1 uk-position-z-index text-warning">GIẢM THÂM NÁM</div>
+                                <div class="uk-position-relative txt2 uk-position-z-index text-white">SÁNG MỊN DA</div>
+                            </div>
+                            <div class="media media5">
+                                <img class="mr-2 align-self-center" src="/landingpage/ng1.png" alt="">
+                                <div class="media-body align-self-center">
+                                    TỪ THẢO MỘC <br>
+                                    THIÊN NHIÊN
+                                </div>
+                            </div>
+                            <div class="media media5">
+                                <img class="mr-2 align-self-center" src="/landingpage/ng2.png" alt="">
+                                <div class="media-body align-self-center">
+                                    KHÔNG CÓ <br>
+                                    TÁC DỤNG PHỤ
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-width-1-3@m">
+                            <div class="box4 uk-position-relative">
+                                <img class="w-100 c1" src="/landingpage/Ginskin.png" alt="">
+                                <img class="c2 uk-position-center-right-out" src="/landingpage/trim1.png" alt="">
+                            </div>
+                            <div class="uk-position-relative">
+                                <h2 class="title m-0 mt-3">28 NGÀY</h2>
+                                <div class="desc">CAM KẾT GIẢM NÁM DA
+                                    NHỜ TINH CHẤT THÔNG ĐỎ</div>
+                                <img class="uk-position-center-right-out" src="/landingpage/trai1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom uk-position-bottom pt-2 uk-position-z-index">
+                <div class="uk-container uk-position-relative">
+                    <img class="uk-position-center-left-out c2 uk-visible@m" src="/landingpage/icoxx.png" alt="">
+                    <div class="uk-flex-right uk-grid uk-grid-stack" uk-grid="">
+                        <div class="uk-width-2-3@m uk-first-column">
+                            <div class="uk-grid uk-grid-small uk-flex-bottom">
+                                <div class="uk-width-2-3@m">
+                                    <h3 class="title text-uppercase m-0">ưu đãi đặc biệt</h3>
+                                    <div class="desc">Đặt hàng ngay để được giá tốt nhất</div>
+                                </div>
+                                <div class="uk-width-1-3@m uk-position-relative">
+                                    <img class="uk-position-center-right-out c1" src="/landingpage/no1.png" alt="">
+                                    <div class="price_txt">Giá gốc</div>
+                                    <div class="price_old"><del>350.000</del><sup>đ</sup></div>
+                                    <div class="price_new">310.000<sup>đ</sup></div>
+                                </div>
+                            </div>
+                            <div class="uk-grid uk-grid-small uk-margin-small">
+                                <div class="uk-width-2-3">
+                                    <div class="uk-flex uk-flex-middle uk-flex-between">
+                                        <a href="#" class="uk-button uk-button-danger text-uppercase">đặt hàng ngay</a>
+                                        <span class="txt">Chỉ còn</span>
+                                    </div>
+                                </div>
+                                <div class="uk-width-1-3">
+                                    <div class="uk-grid-small uk-child-width-auto uk-grid uk-countdown" uk-grid="" uk-countdown="date: 2018-10-23T19:18:42+00:00">
+                                        <div class="uk-first-column">
+                                            <div class="uk-countdown-number uk-countdown-hours"><span>0</span><span>0</span></div>
+                                            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible">giờ</div>
+                                        </div>
+                                        <div>
+                                            <div class="uk-countdown-number uk-countdown-minutes"><span>0</span><span>0</span></div>
+                                            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible">phút</div>
+                                        </div>
+                                        <div>
+                                            <div class="uk-countdown-number uk-countdown-seconds"><span>0</span><span>0</span></div>
+                                            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible">giây</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h5 class="title1 text-center m-0 uk-margin-small"><span>Hotline: 024.6262.7788</span></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block_24 uk-section">
+        <div class="uk-container uk-position-relative">
+            <img class="uk-position-center-left uk-position-z-index uk-visible@m" src="/landingpage/ix21.png" alt="">
+            <div class="text-uppercase box8 py-2 text-white">
+                <h5>Hành trình đánh bay vết nám</h5>
+                <h3>nhờ bộ trị nám Ginskin</h3>
+                <img class="uk-position-bottom-right uk-position-z-index uk-visible@m" src="/landingpage/ico_buom1.png" alt="">
+                <div class="author">
+                    Chia sẻ của chị Trần Thanh Vân <br>
+                    Hoàng Quốc Việt – Cầu Giấy Hà Nội <br>
+                    SĐT : 097321xxxx
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block_23 uk-section-small">
+        <div class="uk-container">
+            <div class="uk-grid-collapse uk-child-width-1-2@m uk-grid" uk-grid="">
+                <div class="uk-first-column">
+                    <div class="uk-card h-100 uk-card-body">
+                        <img class="w-100" src="/landingpage/ix11.png" alt="">
+                        <p class="mb-0 text-justify">Nhiều người nói rằng tôi là mẫu phụ nữ của gia đình. Sau khi kết hôn tôi dành hết tâm huyết cho công việc và chăm lo cho gia đình. Và chỉ nghĩ đơn giản nhìn thấy chồng con hạnh phúc là tôi thấy vui lòng. Nhưng cho đến 1 ngày nhân Kỷ niệm thành lập trường gặp lại lũ bạn thân thời cấp 3. Hội bạn không nhận ra tôi, đứa bạn thân lôi tôi ra thì thầm “ Sao hoa khôi của lớp mà bây giờ nhìn mày như bà lão 45 tuổi” mặc dù hiện tại tôi mới 29 tuổi. Lúc đó</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card h-100 uk-card-body">
+                        <p class="mb-0 text-justify">tôi thấy tự ti vô cùng.” Sau khi kết thúc cuôc hẹn hò với đám bạn về đến nhà là tôi chạy ngay đến chiếc gương. Tôi giật mình nhận ra tôi đang sở hữu thân hình béo phì đồng thời gương mặt tôi đầy những vết nám sạm thâm đen di chứng sau khi sinh để lại “. Tôi đã tâm sự lại với chồng. Thế mới biết anh là 1 người chồng rất tâm lý, anh bảo nhiều lần cũng muốn nói điều đó nhưng sợ tôi chạnh lòng. Thế là cả đêm tôi không ngủ nổi  và lên mạng tìm tòi phương pháp cho công cuộc cải cách bản thân. Ngay sáng hôm sau tôi dậy tập thể dục và lên kế hoặc ăn kiêng. Thật không ngờ 1 tháng sau có hiệu quả. Nhưng tôi vẫn vô cùng tự ti về những vết nám sạm đen trên khuôn mặt của tôi. Tôi đã làm đủ biện pháp đắp mặt, bôi serum cả đi bắn tia laser nhưng chỉ được một thời gian nó lại làm tôi thất vọng. Cho đến 1 ngày chồng tôi ra công tác Hà Nội anh đã mang về tặng tôi bộ kem Trị nám Ginskin.</p>
+                    </div>
+                </div>
+                <div class="uk-grid-margin uk-first-column">
+                    <div class="uk-card h-100 uk-card-body">
+                        <img class="w-100" src="/landingpage/ix12.png" alt="">
+                    </div>
+                </div>
+                <div class="uk-grid-margin">
+                    <div class="uk-card h-100 uk-card-body">
+                        <p class="mb-0 text-justify">Thật sự tôi cũng không tha thiết lắm nhưng nghe chồng nói bạn anh làm bác sĩ da liễu khuyên dùng sản phẩm này.” Vì Ginskin là sản phẩm đi đầu trong nước với chiết xuất thông đỏ nhập khẩu từ pháp. Sản phẩm không chỉ có tác dụng ngoài da hơn hết nó tác dụng  sâu bên trong da mà khi ngừng thuốc nám không quay trở lại.”</p>
+                        <p class="mb-0 text-justify">Vì là quà chồng tặng nên tôi vẫn quyết định dùng thử. Thật không nhờ sau 7 ngày da tôi hồng hào săn chắc hơn hẳn. Vì được bạn bè khen  nhiều tôi quyết định theo một liệu trình. Thật không ngờ Ginskin trị nám lại thần kỳ như vậy. Chỉ sau 4 tuần da mặt tôi đã hết nám, căng mịn, hồng hào. Tôi rất hạnh phúc và tự tin hơn hẳn. Tôi thầm cám ơn Ginskin đã đem đến cho tôi sự tự tin của người phụ nữ mà bao lâu nay tôi đã đánh mất.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block_22 uk-section-small">
+        <div class="uk-container">
+            <div class="box7 uk-position-relative">
+                <span class="text-uppercase text-center uk-position-center-left">bạn có biết</span>
+                <div class="box_body text-uppercase py-3 uk-position-relative">
+                    <div class="uk-position-relative">
+                        BẠN đang bị nám da ở cấp độ mấy ?
+                        <div class="uk-position-bottom-left txt1">
+                            Sau nhiều năm nghiên cứu, các chuyên gia điều trị da đã <br>
+                            phân chia nám da thành 3 loại, 3 cấp độ sau:
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block_4 uk-section-small">
+        <div class="uk-container">
+            <div class="uk-grid-collapse uk-child-width-1-3@m uk-grid" uk-grid="">
+                <div class="uk-first-column">
+                    <div class="uk-card">
+                        <div class="uk-card-header py-2 pr-3 pl-3">
+                            <div class="media media3">
+                                <img class="mr-3 uk-border-circle align-self-center" src="/landingpage/img11.png" alt="">
+                                <div class="media-body align-self-center">
+                                    <h6 class="media-title text-uppercase m-0">cấp độ 1</h6>
+                                    Nám mảng
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-body uk-padding-small">
+                            Nám mảng thường xuất hiện ở khu vực gò má và trán với các đốm tương đối nhạt màu, chừng độ nám nhẹ, vừa; chân nám nằm ở lớp trên cùng của da (lớp biểu bì).
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card">
+                        <div class="uk-card-header py-2 pr-3 pl-3">
+                            <div class="media media3">
+                                <img class="mr-3 uk-border-circle align-self-center" src="/landingpage/img11.png" alt="">
+                                <div class="media-body align-self-center">
+                                    <h6 class="media-title text-uppercase m-0">cấp độ 2</h6>
+                                    Nám hỗn hợp
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-body uk-padding-small">
+                            Thường gặp ở độ tuổi tiền mãn kinh. Chân nám ăn sâu vào bên trong vùng da, nám thường mọc thành từng mảng. Trong trường hợp này, để chữa nám hiệu quả không thật sự đơn giản.
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card">
+                        <div class="uk-card-header py-2 pr-3 pl-3">
+                            <div class="media media3">
+                                <img class="mr-3 uk-border-circle align-self-center" src="/landingpage/img11.png" alt="">
+                                <div class="media-body align-self-center">
+                                    <h6 class="media-title text-uppercase m-0">cấp độ 3</h6>
+                                    Nám sâu
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-body uk-padding-small">
+                            Là loại nám mọc theo từng nốt. Trong đó, chân nám ăn sâu vào bên trong vùng da.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block_21 uk-section-small">
+        <div class="uk-container">
+
+        </div>
+    </div>
+    <div class="block_20">
+        <div class="uk-container uk-position-relative">
+            <img class="uk-position-center-left-out uk-visible@m" src="/landingpage/ico_buom2.png" alt="">
+            <div class="uk-flex uk-flex-around">
+                <a class="item">Trước</a>
+                <a class="item">Trong</a>
+                <a class="item">Sau</a>
+            </div>
+        </div>
+        <div class="bottom py-2 text-center">Quá trình điều trị</div>
+    </div>
+    <div class="block_19 py-3">
+        <div class="uk-container">
+            <div class="uk-position-relative uk-visible-toggle uk-light uk-slider uk-slider-container" uk-slider="">
+
+                <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-3@m" style="transform: translateX(0px);">
+                    <li class="uk-active">
+                        <img src="/landingpage/gd0.png" alt="">
+                    </li>
+                    <li class="uk-active">
+                        <img src="/landingpage/gd1.png" alt="">
+                    </li>
+                    <li class="uk-active">
+                        <img src="/landingpage/gd2.png" alt="">
+                    </li>
+                    <li>
+                        <img src="/landingpage/gd3.png" alt="">
+                    </li>
+                </ul>
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover uk-slidenav-previous uk-icon uk-slidenav uk-invisible" href="#" uk-slidenav-previous="" uk-slider-item="previous"><svg width="14" height="24" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg"><polyline fill="none" stroke="#000" stroke-width="1.4" points="12.775,1 1.225,12 12.775,23 "></polyline></svg></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover uk-slidenav-next uk-icon uk-slidenav" href="#" uk-slidenav-next="" uk-slider-item="next"><svg width="14" height="24" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg"><polyline fill="none" stroke="#000" stroke-width="1.4" points="1.225,23 12.775,12 1.225,1 "></polyline></svg></a>
+
+            </div>
+        </div>
+    </div>
+    <div class="block_18 uk-section-small">
+        <div class="uk-container">
+            <div class="box6">
+                <p class="text-center">Bạn đang ở cấp độ nám da nào, vui lòng liên hệ để chúng tôi tư vấn FREE</p>
+                <div class="uk-flex-center uk-grid uk-grid-stack" uk-grid="">
+                    <div class="uk-width-1-4@s uk-position-relative uk-first-column">
+                        <button class="uk-button uk-button-danger">TƯ VẤN NGAY</button>
+                        <div class="uk-position-center-right-out phone">
+                            <small>Hotline</small>
+                            <div>024.6262.7788</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block_17">
+        <div class="uk-container">
+            <h3 class="title text-uppercase text-center">đăng ký tư vấn</h3>
+        </div>
+    </div>
+    <div class="block_16 uk-section-small">
+        <div class="uk-container uk-position-relative">
+            <img class="uk-position-center-left-out uk-visible@m" src="/landingpage/ico_buom1.png" alt="">
+            <form class="uk-grid-small uk-flex-center uk-grid" uk-grid="">
+                <div class="uk-width-1-2@s uk-first-column">
+                    <input class="uk-input" type="text" placeholder="Họ tên">
+                </div>
+                <div class="uk-width-1-2@s">
+                    <input class="uk-input" type="text" placeholder="Địa chỉ">
+                </div>
+                <div class="uk-width-1-2@s uk-grid-margin uk-first-column">
+                    <input class="uk-input" type="text" placeholder="Số điện thoại">
+                </div>
+                <div class="uk-width-1-2@s uk-grid-margin">
+                    <input class="uk-input" type="text" placeholder="Thời gian bị nám">
+                </div>
+                <div class="uk-width-1-3@s uk-grid-margin uk-first-column">
+                    <button type="submit" class="uk-button uk-button-danger uk-width-1-1">Nhận tư vấn ngay</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="block_15 uk-section">
+        <div class="uk-container">
+            <div class="box5 p-2 uk-position-relative">
+                <div class="tmp5 uk-border-circle uk-position-center-left uk-visible@m">chiết xuất THÔNG ĐỎ PYCNOGENOL</div>
+                <div class="text-center txt">
+                    <span class="uk-position-relative uk-position-z-index">Tại sao Ginskin giúp bạn <br>
+                    xóa tan nám tàn nhang</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block_14 uk-section pb-5">
+        <div class="uk-container">
+            <div class="uk-position-relative uk-grid" uk-grid="">
+                <div class="uk-width-1-3@m uk-first-column">
+                    <img class="c1 uk-position-bottom-left uk-visible@m" src="/landingpage/img4.png" alt="">
+                </div>
+                <div class="uk-width-expand">
+                    <div class="uk-card uk-card-body pt-3 pb-3 uk-card-default uk-position-relative">
+                        <h3 class="title m-0">DUY NHẤT</h3>
+                        <p>trên thị trường <br> có chiết xuất</p>
+                        <h3 class="title m-0">THÔNG ĐỎ <br> PYCNOGENOL</h3>
+                        <img class="uk-position-center-right uk-visible@m" src="/landingpage/ico_buom1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block_13 pb-3">
+        <div class="uk-container">
+            <h4 class="title text-center text-uppercase">TÁC DỤNG TỪNG THÀNH PHẦN <br> TRONG VIÊN UỐNG GINSKIN</h4>
+        </div>
+    </div>
+    <div class="block_12 uk-section-small pb-0 pt-0">
+        <div class="uk-container">
+            <div class="media uk-position-relative">
+                <img class="mr-3 uk-position-z-index uk-visible@m" src="/landingpage/ix1.png" alt="">
+                <div class="media-body pb-2 text-white">
+                    <h5 class="media-title text-white py-2 uk-position-relative uk-position-z-index"><span>CHIẾT XUẤT THÔNG ĐỎ PYCNOGENOL</span></h5>
+                    <div class="uk-child-width-1-2@m uk-position-relative uk-position-z-index uk-grid" uk-grid="">
+                        <div class="text-justify uk-first-column">
+                            Có tác dụng ức chế men tyrosine giúp làm mờ các vết nám, tàn nhang, sáng da, tăng đàn hồi, giảm nếp nhăn, bảo vệ da chống lại các  tổn thương do ánh nắng mặt trời gây ra.
+                        </div>
+                        <div class="text-justify">
+                            Theo nghiên cứu lâm sàng khi dùng 100mg/ngày trong vòng 28 ngày da sẽ sáng dần, giảm các vết thâm nám. Trong vòng 56 ngày da bớt nhăn, mịn hơn, các vết thâm nám sẽ cải thiện rõ rệt.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block_11 uk-section">
+        <div class="uk-container uk-position-relative">
+            <div class="uk-child-width-1-2@m uk-grid uk-grid-stack" uk-grid="">
+                <div class="uk-first-column">
+                    <h5 class="title m-0 mb-2">Bác sỹ nói về chiết xuất thông đỏ giúp điều trị nám</h5>
+                    <div class="uk-card uk-card-default uk-box-shadow-bottom">
+                        <iframe src="/landingpage/3uQOv3FH5Ek.html" width="560" height="315" frameborder="0" allowfullscreen="" uk-responsive="" uk-video="automute: true" class="uk-responsive-width" style="height: 231px;"></iframe>
+                    </div>
+                </div>
+            </div>
+            <img class="uk-position-top-right uk-visible@m" src="/landingpage/bg_video.png" alt="">
+        </div>
+    </div>
+    <div class="block_10 py-3 uk-section-small">
+        <div class="uk-container">
+            <div class="uk-child-width-1-3@m uk-grid" uk-grid="">
+                <div class="uk-first-column">
+                    <div class="uk-card h-100 text-center">
+                        <img src="/landingpage/ig1.png" alt="">
+                        <h5 class="title bg-warning text-white m-0 py-2 text-center">COLLAGEN TYPE 1</h5>
+                        <div class="uk-card-body uk-padding-small">
+                            <p class="m-0">Giúp làm tăng mật độ phân bố collagen cho lớp trung bì, giúp da khỏe hơn, căng mịn, giảm tình trạng da bị chảy xệ</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card h-100 text-center">
+                        <img src="/landingpage/ig2.png" alt="">
+                        <h5 class="title bg-danger text-white m-0 py-2 text-center">CHIẾT XUẤT MẦM ĐẬU NÀNH</h5>
+                        <div class="uk-card-body uk-padding-small">
+                            <p class="m-0">Thành phần chính là isoflavone có cấu trúc gần giống estrogen. Giúp tăng sản sinh nội tiết tố nữ ở phụ nữ độ tuổi ngoài 30.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card h-100 text-center">
+                        <img src="/landingpage/ig3.png" alt="">
+                        <h5 class="title bg-info text-white m-0 py-2 text-center">nhân sâm</h5>
+                        <div class="uk-card-body uk-padding-small">
+                            <p class="m-0">Tăng hormone nữ, tăng ham muốn, cải thiện các triệu chứng mãn kinh, tăng cường thể chất, chống căng thẳng mệt mỏi (theo nghiên cứu của Viện nghiên cứu thực phẩm Hàn Quốc)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block_10 py-3 uk-section-small">
+        <div class="uk-container">
+            <div class="uk-child-width-1-3@m uk-grid" uk-grid="">
+                <div class="uk-first-column">
+                    <div class="uk-card h-100 text-center">
+                        <img src="/landingpage/ig4.png" alt="">
+                        <h5 class="title bg-danger text-white m-0 py-2 text-center">ASTAXANTHIN 5%</h5>
+                        <div class="uk-card-body uk-padding-small">
+                            <p class="m-0">Chống Oxy hóa mạnh gấp 100 lần Vitamin E. Giúp bảo vệ tiến trình tái tạo collagen và hỗ trợ tối ưu quá trình tái tạo da.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card h-100 text-center">
+                        <img src="/landingpage/ig5.png" alt="">
+                        <h5 class="title bg-warning text-white m-0 py-2 text-center">CHIẾT XUẤT CÀ CHUA</h5>
+                        <div class="uk-card-body uk-padding-small">
+                            <p class="m-0">Rất giàu lycopene và vitamin C, có tác dụng chống Oxy hóa, chống lại các gốc tự do, bảo vệ da trước tia UV. Đồng thời có tác dụng chống viêm, tăng cường miễn dịch cơ thể, bảo vệ da khỏi sự tổn thương, tăng tính bền vững của da. Vitamin C cũng tham gia vào quá trình tổng hợp collagen của da, giảm nhăn da</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card h-100 text-center">
+                        <img src="/landingpage/ig6.png" alt="">
+                        <h5 class="title bg-info text-white m-0 py-2 text-center">CHIẾT XUẤT HẠT NHO</h5>
+                        <div class="uk-card-body uk-padding-small">
+                            <p class="m-0">Hàm lượng cao các chất chống oxy hóa vitamin E, flavonoid, vitamin C và beta-carotene, giúp làm chậm quá trình lão hóa da, ngăn hình thành nếp nhăn.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block_10 py-3 uk-section-small">
+        <div class="uk-container">
+            <div class="uk-child-width-1-3@m uk-flex-center uk-grid" uk-grid="">
+                <div class="uk-first-column">
+                    <div class="uk-card h-100 text-center">
+                        <img src="/landingpage/ig7.png" alt="">
+                        <h5 class="title bg-info text-white m-0 py-2 text-center">CIVITOL 1360</h5>
+                        <div class="uk-card-body uk-padding-small">
+                            <p class="m-0">(Vitamin E thiên nhiên) Chống lại quá trình Oxy hóa hiệu quả, ngăn ngừa các tổn thương da do các gốc tự do, tăng cường phục hồi những tổn thương biểu mô và dưỡng ẩm của lớp sừng .</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card h-100 text-center">
+                        <img src="/landingpage/ig8.png" alt="">
+                        <h5 class="title bg-danger text-white m-0 py-2 text-center">KẼM GLUCONAT</h5>
+                        <div class="uk-card-body uk-padding-small">
+                            <p class="m-0">Tăng miễn dịch cơ thể; giúp sản xuất collagen, cải thiện tình trạng da; Cân bằng nội tiết trong cơ thể, hỗ trợ giảm mất ngủ, khó ngủ.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block_bacsy uk-section">
+        <div class="uk-container">
+            <div class="uk-card card3 uk-grid-collapse uk-child-width-1-2@s uk-margin uk-grid" uk-grid="">
+                <div class="uk-card-media-left uk-cover-container uk-first-column">
+                    <img src="/landingpage/hihi1.png" alt="">
+                    <div class="text-center text-white p-2 name_bsy"><span class="text-warning">Bs</span>.Trần Thị Thanh Nho</div>
+                </div>
+                <div>
+                    <h3 class="uk-card-title">Bác sĩ chuyên khoa 2 da liễu chia sẻ</h3>
+                    <div class="uk-card-body uk-margin-small c1 uk-padding-small">
+                        <p>Pycnogenol là chiết xuất chuẩn từ thông đỏ (Pháp) có hoạt tính mạnh ức chế enzym tyrosinase, chống lại sự hình thành hắc tố melanin. Các nghiên cứu in vitro cho thấy Pycnogenol mạnh gấp vài lần so với vitamin E và vitamin C. Ngoài ra, nó tái chế vitamin C, phục hồi vitamin E và tăng hệ thống enzyme chống oxy hóa nội sinh. Bảo vệ da trước bức xạ tia cực tím UV</p>
+                    </div>
+                    <div class="uk-card-body uk-margin-small c2 uk-padding-small">
+                        <p>Pycnogenol cải thiện đáng kể độ ẩm và tính đàn hồi của da.</p>
+                    </div>
+                    <div class="uk-card-body uk-margin-small c3 uk-padding-small">
+                        <p>Pycnogenol cải thiện đáng kể độ ẩm và độ đàn hồi của da. Những ảnh hưởng này được ghi nhận nhiều nhất ở những phụ nữ có tình trạng da khô trước khi bắt đầu bổ sung. Sự cải thiện da - sinh lý được đi kèm với sự gia tăng đáng kể sự biểu hiện mRNA của acid hyaluronic synthase-1 (HAS-1), một enzym tham gia vào việc tổng hợp axit hyaluronic và sự gia tăng đáng kể trong biểu hiện gen liên quan đến collagen</p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card card4 uk-grid-collapse uk-child-width-1-2@s uk-margin uk-grid" uk-grid="">
+                <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                    <img src="/landingpage/hihi2.png" alt="">
+                    <div class="text-center text-white p-2 name_bsy"><span class="text-warning">Ds</span>.Trần Thúy Hằng</div>
+                </div>
+                <div class="uk-first-column">
+                    <div class="uk-card-body uk-padding-small">
+                        <p>Thành phần 01 Viên uống GINSKIN chứa 25mg chiết xuất thông đỏ (pycnogenol). Với liều dùng 04 viên mỗi ngày sẽ cung cấp 100mg chiết xuất thông đỏ (pycnogenol) – liều lượng được khuyên dùng có tác dụng hỗ trợ làm mờ các vết nám chỉ sau 30 ngày nhờ khả năng ngăn chặn sự hình thành các hắc tố melamin trên da của hoạt chất Pycnogenol có trong chiết xuất thông đỏ.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card card5 uk-grid-collapse uk-child-width-1-2@s uk-margin uk-grid" uk-grid="">
+                <div class="uk-card-media-left uk-cover-container uk-first-column">
+                    <img src="/landingpage/hihi3.png" alt="">
+                </div>
+                <div>
+                    <div class="uk-card-body uk-padding-small">
+                        <p>Sản phẩm Viên uống GINSKIN còn chứa các thành phần khác như: Collagen tuyp 1, chiết xuất mầm đậu nành, chiết xuất cà chua, chiết xuất hạt nho, Covitol 1360 (vitamin E thiên nhiên), Astaxanthin 5%....hỗ trợ giảm nám sạm da hiệu quả hơn. Đồng thời giúp da căng mịn, cải thiện độ ẩm, tăng tính đàn hồi cho da, giảm lão hóa nhờ khả năng chống oxy hóa vượt trội và thu hồi gốc tự do cũng như cải thiện sinh lý, giảm các triệu chứng khó chịu của thời kỳ tiền mãn kinh, mãn kinh.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block_9 uk-section">
+        <div class="uk-container">
+            <div class="box9 uk-position-relative">
+                <img class="uk-position-center-left uk-visible@m" src="/landingpage/img3.png" alt="">
+                <div class="top py-3 text-uppercase"><span class="uk-position-relative uk-position-z-index">hướng dẫn sử dụng</span></div>
+                <div class="bottom"></div>
+            </div>
+        </div>
+    </div>
+    <div class="block_8 uk-section-small pb-0">
+        <div class="uk-container">
+            <h5 class="title text-center text-uppercase m-0 mb-1">Mỗi lần uống 1-2 viên sau ăn, ngày 2 lần</h5>
+            <div class="uk-grid-collapse uk-child-width-1-2@m uk-grid" uk-grid="">
+                <div class="uk-first-column">
+                    <div class="uk-card h-100 uk-card-body uk-padding-small">
+                        Trường hợp người hay mất ngủ nên uống vào buổi sáng  hoặc buổi trưa. Tránh uống vào buổi tối vì trong thành phần có hàm lượng nhân sâm là 30mg, những người cơ địa nhạy  cảm khi dùng thuốc sẽ gây mất ngủ.
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card h-100 uk-card-body uk-padding-small">
+                        Lưu ý với những người bị nám nhiều thì  khuyên  KH nên sử dụng 4 viên/ 1 ngày uống trong vòng 1 tháng thì hiệu quả nhanh hơn.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block_7 uk-section-small">
+        <div class="uk-container">
+            <div class="uk-grid-collapse box72 uk-position-relative uk-child-width-1-2@m uk-flex-middle uk-grid" uk-grid="">
+                <div class="uk-first-column">
+                    <div class="box_7 uk-position-relative">
+                        <h4 class="text-uppercase text-center m-0 py-2">hiệu quả sử dụng</h4>
+                        <h3 class="text-uppercase text-center m-0 py-2">khi kết hợp</h3>
+                    </div>
+                </div>
+                <div>
+                    <div class="text-center text-uppercase box71">
+                        uống viên nang <br>
+                        &amp; phòng ngừa ở nhà
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block_6 uk-section-small pb-0">
+        <div class="uk-container">
+            <div class="uk-flex-center uk-grid uk-grid-stack" uk-grid="">
+                <div class="uk-width-3-4@m uk-first-column">
+                    <img src="/landingpage/img2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block_5 uk-section-small pt-sm-0 pb-0">
+        <div class="uk-container">
+            <div class="media media4">
+                <div class="media-body align-self-end p-3">
+                    <p class="m-0 uk-position-relative uk-position-z-index">Như vậy thì việc hiệu quả nhanh hay chậm sẽ là tùy tình trạng chăm sóc và cơ địa của mỗi người, nhưng với người dùng liều uống tập trung 4 viên mỗi ngày sẽ có những giai đoạn cải thiện sau đây:</p>
+                </div>
+                <img class="uk-visible@m" src="/landingpage/ico_buom1.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="block_4 uk-section-small pb-0">
+        <div class="uk-container">
+            <h5 class="title m-0 py-1 text-center">Liều uống 4 viên mỗi ngày</h5>
+            <div class="uk-grid-collapse uk-child-width-1-3@m uk-grid" uk-grid="">
+                <div class="uk-first-column">
+                    <div class="uk-card">
+                        <div class="uk-card-header py-2 pr-3 pl-3">
+                            <div class="media media3">
+                                <img class="mr-3 uk-border-circle align-self-center" src="/landingpage/img11.png" alt="">
+                                <div class="media-body align-self-center">
+                                    <h6 class="media-title text-uppercase m-0">giai đoạn 1</h6>
+                                    Sau khoảng 20 ngày dùng
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-body uk-padding-small">
+                            Da mềm dần, sắc mặt hồng hào hơn, cải thiện sinh lý nữ (khoảng 14 ngày sau khi sử dụng)
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card">
+                        <div class="uk-card-header py-2 pr-3 pl-3">
+                            <div class="media media3">
+                                <img class="mr-3 uk-border-circle align-self-center" src="/landingpage/img11.png" alt="">
+                                <div class="media-body align-self-center">
+                                    <h6 class="media-title text-uppercase m-0">giai đoạn 2</h6>
+                                    Sau khoảng 28 - 35 ngày dùng
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-body uk-padding-small">
+                            Da mềm mịn, các vết nám tàn nhang bắt đầu mờ đi, không xuất hiện các vết nám mới, ngủ sâu giấc hơn, giảm hẳn các triệu chứng bốc hỏa, kinh nguyệt không đều.
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card">
+                        <div class="uk-card-header py-2 pr-3 pl-3">
+                            <div class="media media3">
+                                <img class="mr-3 uk-border-circle align-self-center" src="/landingpage/img11.png" alt="">
+                                <div class="media-body align-self-center">
+                                    <h6 class="media-title text-uppercase m-0">giai đoạn 3</h6>
+                                    Sau khoảng 60ngày dùng
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-body uk-padding-small">
+                            Các vết nám tàn nhang mờ đi rõ rệt, da mềm mịn, giảm nếp nhăn, da sáng, hồng hào hơn, giảm quầng thâm ở mắt.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block_3 uk-section-small pb-0">
+        <div class="uk-container">
+            <div class="uk-grid-collapse uk-child-width-1-2 uk-child-width-1-4@m uk-grid" uk-grid="">
+                <div class="uk-first-column">
+                    <div class="uk-card card2">
+                        <img src="/landingpage/gd0.png" alt="">
+                        <div class="uk-card-body py-2 text-center">
+                            Trước
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card card2">
+                        <img src="/landingpage/gd1.png" alt="">
+                        <div class="uk-card-body py-2 text-center">
+                            Giai đoạn 1
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card card2">
+                        <img src="/landingpage/gd2.png" alt="">
+                        <div class="uk-card-body py-2 text-center">
+                            Giai đoạn 2
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card card2">
+                        <img src="/landingpage/gd3.png" alt="">
+                        <div class="uk-card-body py-2 text-center">
+                            Giai đoạn 3
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section">
+        <div class="uk-container">
+            <img src="/landingpage/img1.png" alt="">
+        </div>
+    </div>
+    <div class="uk-section-small"></div>
+    <div class="block_2">
+        <div class="top py-3 uk-flex uk-flex-column uk-flex-between">
+            <hr>
+            <hr class="c1">
+        </div>
+        <div class="uk-container bottom uk-position-relative">
+            <img class="uk-position-center-left uk-visible@m c1 uk-position-z-index" src="/landingpage/ico_bg.png" alt="">
+            <img class="uk-position-bottom-right c2 uk-position-z-index" src="/landingpage/ico_buom1.png" alt="">
+            <h3 class="title text-uppercase text-right p-2"><span class="uk-position-relative uk-position-z-index text-white">giấy phép và giải thưởng</span></h3>
+        </div>
+    </div>
+    <div class="uk-section-small"></div>
+    <div class="block_1 uk-section-small pb-1">
+        <div class="uk-container">
+            <div class="uk-child-width-1-2@m uk-grid" uk-grid="">
+                <div class="uk-first-column">
+                    <div uk-slideshow="animation: push" class="uk-slideshow">
+
+                        <div class="uk-position-relative uk-visible-toggle uk-light">
+
+                            <ul class="uk-slideshow-items" style="min-height: 230.625px;">
+                                <li class="uk-active uk-transition-active" style="transform: translateX(0px); z-index: 0;">
+                                    <img src="/landingpage/mp.jpg" alt="" uk-cover="" class="uk-cover" style="width: 425px; height: 232px;">
+                                </li>
+                                <li>
+                                    <img src="/landingpage/ketthum.jpg" alt="" uk-cover="" class="uk-cover">
+                                </li>
+                                <li>
+                                    <img src="/landingpage/6.jpg" alt="" uk-cover="" class="uk-cover">
+                                </li>
+                            </ul>
+
+                            <a class="uk-position-center-left uk-position-small uk-hidden-hover uk-slidenav-previous uk-icon uk-slidenav" href="#" uk-slidenav-previous="" uk-slideshow-item="previous"><svg width="14" height="24" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg"><polyline fill="none" stroke="#000" stroke-width="1.4" points="12.775,1 1.225,12 12.775,23 "></polyline></svg></a>
+                            <a class="uk-position-center-right uk-position-small uk-hidden-hover uk-slidenav-next uk-icon uk-slidenav" href="#" uk-slidenav-next="" uk-slideshow-item="next"><svg width="14" height="24" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg"><polyline fill="none" stroke="#000" stroke-width="1.4" points="1.225,23 12.775,12 1.225,1 "></polyline></svg></a>
+
+                        </div>
+
+                        <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"><li uk-slideshow-item="0" class="uk-active"><a href="#"></a></li><li uk-slideshow-item="1"><a href="#"></a></li><li uk-slideshow-item="2"><a href="#"></a></li></ul>
+
+                    </div>
+                </div>
+                <div>
+                    <div uk-slideshow="animation: push" class="uk-slideshow">
+
+                        <div class="uk-position-relative uk-visible-toggle uk-light">
+
+                            <ul class="uk-slideshow-items" style="min-height: 230.625px;">
+                                <li class="uk-active uk-transition-active" style="transform: translateX(0px); z-index: 0;">
+                                    <iframe width="560" height="315" src="/landingpage/daF4b0nHSuE.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" uk-cover="" class="uk-cover" style="width: 412px; height: 232px;"></iframe>
+                                </li>
+                                <li>
+                                    <video autoplay="" loop="" muted="" playslinline="" uk-cover="" class="uk-cover">
+                                        <source src="https://quirksmode.org/html5/videos/big_buck_bunny.mp4" type="video/mp4">
+                                        <source src="https://quirksmode.org/html5/videos/big_buck_bunny.ogv" type="video/ogg">
+                                    </video>
+                                </li>
+                                <li>
+                                    <img src="/landingpage/Untitled1.jpg" alt="" uk-cover="" class="uk-cover">
+                                </li>
+                            </ul>
+
+                            <a class="uk-position-center-left uk-position-small uk-hidden-hover uk-slidenav-previous uk-icon uk-slidenav" href="#" uk-slidenav-previous="" uk-slideshow-item="previous"><svg width="14" height="24" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg"><polyline fill="none" stroke="#000" stroke-width="1.4" points="12.775,1 1.225,12 12.775,23 "></polyline></svg></a>
+                            <a class="uk-position-center-right uk-position-small uk-hidden-hover uk-slidenav-next uk-icon uk-slidenav" href="#" uk-slidenav-next="" uk-slideshow-item="next"><svg width="14" height="24" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg"><polyline fill="none" stroke="#000" stroke-width="1.4" points="1.225,23 12.775,12 1.225,1 "></polyline></svg></a>
+
+                        </div>
+
+                        <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"><li uk-slideshow-item="0" class="uk-active"><a href="#"></a></li><li uk-slideshow-item="1"><a href="#"></a></li><li uk-slideshow-item="2"><a href="#"></a></li></ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section-small"></div>
+    <div class="block_title uk-section-small">
+        <div class="uk-container uk-position-relative">
+            <img class="uk-position-top-left uk-visible@m ico uk-position-z-index" src="/landingpage/ico_buom1.png" alt="">
+            <h3 class="title2">
+                <div class="box_img uk-border-circle uk-position-center-left">
+                    <img src="/landingpage/ico_mail.png" alt="">
+                </div>
+                người dùng chia sẻ
+            </h3>
+        </div>
+    </div>
+    <div class="uk-section-small">
+        <div class="uk-container">
+            <div class="uk-child-width-1-2@m uk-grid-small uk-grid" uk-grid="">
+                <div class="uk-first-column">
+                    <div class="media media1 uk-position-relative">
+                        <div class="media-left uk-border-circle bg-white uk-position-center-left uk-position-z-index">
+                            <img class="uk-border-circle" src="/landingpage/39735844_911065612419262_6541359625600499712_n.jpg" alt="">
+                        </div>
+                        <div class="media-body align-self-center">
+                            <div class="name">Chị Đinh Thị Thu</div>
+                            <small>Biên tập viên - 32 tuổi</small>
+                        </div>
+                    </div>
+                    <div class="uk-card card1 uk-position-relative uk-card-secondary uk-card-body uk-padding-small pt-4 pl-0">
+                        Từ thời con gái làn da của Thu luôn trắng sáng, đều màu, không có mụn.  Sẵn có làn da đẹp và bản thân Thu cũng thích vẻ đẹp tự nhiên, nên mặc dù làm trong ngành truyền thông và thường phải tiếp xúc với nhiều khách hàng nhưng Thu vẫn rất tự tin để mặt mộc, rất ít trang điểm, hầu như chỉ dùng vài loại kem dưỡng da và son môi làm điểm nhấn cho khuôn mặt. Thời gian gần đây hai bên gò má Thu bắt đầu xuất hiện các vết nám mờ, Thu đã rất lo lắng, bắt đầu tìm kiếm các sản phẩm trị nám. Rồi Thu ra nhà thuốc quen và được nhà thuốc tư vấn sản phẩm Ginskin có thành phần chiết xuất thông đỏ Pháp đang rất “hot” để giảm thâm nám. Sau khi dùng khoảng 06 lọ thấy các vết nám không còn đậm nữa, da mặt cũng hồng hào, căng sáng hơn. Chắc là Thu sẽ sử dụng Ginskin lâu dài để gìn giữ làn da đẹp Thu luôn đẹp tự nhiên.
+                    </div>
+                </div>
+                <div>
+                    <div class="media media2 uk-position-relative">
+                        <div class="media-left uk-border-circle bg-white uk-position-bottom-left uk-position-z-index">
+                            <img class="uk-border-circle uk-position-z-index" src="/landingpage/39891325_306839536741417_4751181586924306432_o.jpg" alt="">
+                        </div>
+                        <div class="media-body">
+                            <div class="box_body pl-5">
+                                <div class="name">Chị Đinh Thị Thu</div>
+                                <small>Biên tập viên - 32 tuổi</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-card uk-card-body uk-padding-small pl-5">
+                        Từ thời con gái làn da của Thu luôn trắng sáng, đều màu, không có mụn.  Sẵn có làn da đẹp và bản thân thường phải tiếp
+                    </div>
+                    <div class="media mt-2 media2 uk-position-relative">
+                        <div class="media-left uk-border-circle bg-white uk-position-bottom-left uk-position-z-index">
+                            <img class="uk-border-circle uk-position-z-index" src="/landingpage/39891325_306839536741417_4751181586924306432_o.jpg" alt="">
+                        </div>
+                        <div class="media-body">
+                            <div class="box_body pl-5">
+                                <div class="name">Chị Đinh Thị Thu</div>
+                                <small>Biên tập viên - 32 tuổi</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-card uk-card-body uk-padding-small pl-5">
+                        Từ thời con gái làn da của Thu luôn trắng sáng, đều màu, không có mụn.  Sẵn có làn da đẹp và bản thân thường phải tiếp
+                    </div>
+                    <div class="media mt-2 media2 uk-position-relative">
+                        <div class="media-left uk-border-circle bg-white uk-position-bottom-left uk-position-z-index">
+                            <img class="uk-border-circle uk-position-z-index" src="/landingpage/39891325_306839536741417_4751181586924306432_o.jpg" alt="">
+                        </div>
+                        <div class="media-body">
+                            <div class="box_body pl-5">
+                                <div class="name">Chị Đinh Thị Thu</div>
+                                <small>Biên tập viên - 32 tuổi</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-card uk-card-body uk-padding-small pl-5">
+                        Từ thời con gái làn da của Thu luôn trắng sáng, đều màu, không có mụn.  Sẵn có làn da đẹp và bản thân thường phải tiếp
+                    </div>
+                    <div class="media mt-2 media2 uk-position-relative">
+                        <div class="media-left uk-border-circle bg-white uk-position-bottom-left uk-position-z-index">
+                            <img class="uk-border-circle uk-position-z-index" src="/landingpage/39891325_306839536741417_4751181586924306432_o.jpg" alt="">
+                        </div>
+                        <div class="media-body">
+                            <div class="box_body pl-5">
+                                <div class="name">Chị Đinh Thị Thu</div>
+                                <small>Biên tập viên - 32 tuổi</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-card uk-card-body uk-padding-small pl-5">
+                        Từ thời con gái làn da của Thu luôn trắng sáng, đều màu, không có mụn.  Sẵn có làn da đẹp và bản thân thường phải tiếp
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block_order">
+        <div class="top py-2">
+            <div class="uk-container uk-position-relative">
+                <img style="left: 75%; top: -80px;" class="uk-position-top-right uk-visible@m" src="/landingpage/bg_ico.png" alt="">
+                <div class="uk-grid-collapse uk-child-width-1-2 uk-flex-bottom uk-grid" uk-grid="">
+                    <div class="uk-width-auto@m uk-width-1-2 uk-first-column">
+                        <div class="box2">
+                            <h4 class="m-0 tite1">ĐẶT HÀNG NGAY</h4>
+                            <h3 class="m-0 tite2">ĐỂ ĐƯỢC GIẢM</h3>
+                            <h4 class="price m-0"><del>350.000</del><sup>đ</sup></h4>
+                        </div>
+                    </div>
+                    <div class="uk-width-auto@m uk-width-1-2">
+                        <div class="box3 uk-position-relative">
+                            <div class="uk-card text-center">
+                                <img src="/landingpage/ico3.png" alt="">
+                                <div class="uk-card-body bg-danger uk-padding-small">
+                                    310.000<sup>đ</sup>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="uk-container uk-position-relative">
+                <img class="uk-position-bottom-left uk-position-z-index uk-visible@m" style="left: -160px; z-index: 1000; bottom: -23px;" src="/landingpage/ico1.png" alt="">
+                <div class="uk-grid-collapse uk-grid" uk-grid="">
+                    <div class="uk-flex-bottom uk-width-2-5 uk-flex uk-visible@m uk-first-column">
+                        <img class="w-100 c1 uk-position-z-index" src="/landingpage/shutterstock_100200221.png" alt="">
+                    </div>
+                    <div class="uk-width-expand">
+                        <div class="uk-child-width-1-2@m uk-flex-middle uk-grid-small uk-grid" uk-grid="">
+                            <div class="uk-first-column">
+                                <div class="uk-box-shadow-bottom box4">
+                                    <img class="w-100" src="/landingpage/Ginskin.png" alt="">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-card uk-margin-small card1 uk-card-default uk-card-body uk-box-shadow-bottom w-100 p-2">
+                                    <div class="box1 text-center">
+                                        <div class="uk-flex uk-flex-middle uk-flex-center">
+                                            <img class="mr-2" src="/landingpage/ico2.png" alt="">
+                                            <span>Hotline</span>
+                                        </div>
+                                        <div class="phone">024.6262.7788</div>
+                                    </div>
+                                    <div class="uk-margin-small" style="margin-top: 2px !important;">
+                                        <input class="uk-input" type="text" placeholder="Họ tên">
+                                    </div>
+                                    <div class="uk-margin-small">
+                                        <input class="uk-input" type="tel" placeholder="Số điện thoại">
+                                    </div>
+                                    <div class="uk-margin-small">
+                                        <input class="uk-input" type="text" placeholder="Địa chỉ">
+                                    </div>
+                                    <div class="uk-margin-small">
+                                        <div class="w-100 uk-form-custom" uk-form-custom="target: &gt; * &gt; span:first-child">
+                                            <select>
+                                                <option value="">Số lượng</option>
+                                                <option value="1">01</option>
+                                                <option value="2">02</option>
+                                                <option value="3">03</option>
+                                                <option value="4">04</option>
+                                            </select>
+                                            <button class="uk-button uk-button-default w-100 uk-flex uk-flex-between uk-flex-middle" style="padding: 0 10px" type="button" tabindex="-1">
+                                                <span>Số lượng</span>
+                                                <span uk-icon="icon: chevron-down" class="uk-icon"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"> <polyline fill="none" stroke="#000" stroke-width="1.03" points="16 7 10 13 4 7"></polyline></svg></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="uk-margin-small">
+                                        <input class="uk-input" type="text" placeholder="Mã giảm giá">
+                                    </div>
+                                    <div class="uk-margin-small">
+                                        <input class="uk-input" type="text" placeholder="Tổng tiền">
+                                    </div>
+                                    <div class="uk-margin mb-3">
+                                        <button type="submit" class="btn btn-lg btn-block btn-outline-secondary text-uppercase uk-box-shadow-medium">đặt hàng ngay</button>
+                                    </div>
+                                </div>
+                                <div class="uk-grid-small mb-3 uk-child-width-1-4 uk-child-width-1-3@m uk-grid uk-countdown" uk-grid="" uk-countdown="date: 2018-10-20T06:19:13+00:00">
+                                    <div class="uk-hidden@m">
+                                        <div class="uk-card border-0 text-center">
+                                            <div class="uk-countdown-number uk-countdown-days bg-transparent" style="opacity: 0"><span>0</span><span>0</span></div>
+                                            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Days</div>
+                                        </div>
+                                    </div>
+                                    <div class="uk-first-column">
+                                        <div class="uk-card uk-card-default text-center">
+                                            <div class="uk-countdown-number uk-countdown-hours"><span>0</span><span>0</span></div>
+                                            <div class="uk-position-relative text_line">
+                                                <div class="uk-position-right txt text-nowrap mr-2 uk-position-z-index" style="right: 100%;">Còn lại</div>
+                                                <div class="uk-countdown-label txt2 uk-margin-small uk-position-relative uk-position-z-index uk-text-center">GIỜ</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-card uk-card-default text-center">
+                                            <div class="uk-countdown-number uk-countdown-minutes"><span>0</span><span>0</span></div>
+                                            <div class="uk-countdown-label uk-margin-small uk-text-center">PHÚT</div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-card uk-card-default text-center">
+                                            <div class="uk-countdown-number uk-countdown-seconds"><span>0</span><span>0</span></div>
+                                            <div class="uk-countdown-label uk-margin-small uk-text-center">GIÂY</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block_faqs uk-section bg-color2">
+        <div class="uk-container">
+            <h4 class="title text-uppercase text-center uk-margin">các câu hỏi thường gặp</h4>
+            <div class="uk-child-width-1-2@m uk-grid" uk-grid="">
+                <div class="uk-first-column">
+                    <div class="item_faq uk-position-relative h-100">
+                        <h5 class="title1">Thành phần và tác dụng của từng thành phần của Ginskin ?</h5>
+                        <article class="uk-overflow-hidden" data-readmore="" aria-expanded="false" id="rmjs-1" style="max-height: none; height: 55px;">
+                            <p>Chiết xuất thông đỏ: Theo nghiên cứu lâm sàng khi dùng 100m/ngày trong vòng 28 ngày da sẽ sáng dần. ít đỏ hơn,  giảm </p>
+                            <p>Readmore.js is tested with—and supported on—all versions of jQuery greater than 1.9.1. All the "good" browsers are supported, as well as IE10+; IE8 &amp; 9 should work, but are not supported and the experience will not be ideal.</p>
+                            <p>A smooth, responsive jQuery plugin for collapsing and expanding long blocks of text with "Read more" and "Close" links.</p>
+                        </article><div class="text-center mt-4 uk-position-bottom-center" data-readmore-toggle="rmjs-1" aria-controls="rmjs-1"><a href="#" class="text-uppercase">xem thêm</a></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="item_faq uk-position-relative h-100">
+                        <h5 class="title1">Dùng kem nám Ginskin có bị dị ứng sẩn da mặt ?</h5>
+                        <article class="uk-overflow-hidden" data-readmore="" aria-expanded="false" id="rmjs-2" style="max-height: none; height: 55px;">
+                            <p>Chiết xuất thông đỏ: Theo nghiên cứu lâm sàng khi dùng 100m/ngày trong vòng 28 ngày da sẽ sáng dần. ít đỏ hơn,  giảm nám hơn. </p>
+                            <p>Readmore.js is tested with—and supported on—all versions of jQuery greater than 1.9.1. All the "good" browsers are supported, as well as IE10+; IE8 &amp; 9 should work, but are not supported and the experience will not be ideal.</p>
+                            <p>A smooth, responsive jQuery plugin for collapsing and expanding long blocks of text with "Read more" and "Close" links.</p>
+                        </article><div class="text-center mt-4 uk-position-bottom-center" data-readmore-toggle="rmjs-2" aria-controls="rmjs-2"><a href="#" class="text-uppercase">xem thêm</a></div>
+                    </div>
+                </div>
+                <div class="uk-grid-margin uk-first-column">
+                    <div class="item_faq uk-position-relative h-100">
+                        <h5 class="title1">Điểm khác biệt trong thành phần Ginskin ?</h5>
+                        <article class="uk-overflow-hidden" data-readmore="" aria-expanded="false" id="rmjs-3" style="max-height: none; height: 55px;">
+                            <p>Chiết xuất thông đỏ: Theo nghiên cứu lâm sàng khi dùng 100m/ngày trong vòng 28 ngày da sẽ sáng dần. ít đỏ hơn,  giảm nám hơn. </p>
+                            <p>Readmore.js is tested with—and supported on—all versions of jQuery greater than 1.9.1. All the "good" browsers are supported, as well as IE10+; IE8 &amp; 9 should work, but are not supported and the experience will not be ideal.</p>
+                            <p>A smooth, responsive jQuery plugin for collapsing and expanding long blocks of text with "Read more" and "Close" links.</p>
+                        </article><div class="text-center mt-4 uk-position-bottom-center" data-readmore-toggle="rmjs-3" aria-controls="rmjs-3"><a href="#" class="text-uppercase">xem thêm</a></div>
+                    </div>
+                </div>
+                <div class="uk-grid-margin">
+                    <div class="item_faq uk-position-relative h-100">
+                        <h5 class="title1">Hiện tượng dùng kem trị nám Ginskin rửa mặt thấy da mặt hiền cáu bẩn ?</h5>
+                        <article class="uk-overflow-hidden" data-readmore="" aria-expanded="false" id="rmjs-4" style="max-height: none; height: 55px;">
+                            <p>Chiết xuất thông đỏ: Theo nghiên cứu lâm sàng khi dùng 100m/ngày trong vòng 28 ngày da sẽ sáng dần. ít đỏ hơn,  giảm nám hơn. </p>
+                            <p>Readmore.js is tested with—and supported on—all versions of jQuery greater than 1.9.1. All the "good" browsers are supported, as well as IE10+; IE8 &amp; 9 should work, but are not supported and the experience will not be ideal.</p>
+                            <p>A smooth, responsive jQuery plugin for collapsing and expanding long blocks of text with "Read more" and "Close" links.</p>
+                        </article><div class="text-center mt-4 uk-position-bottom-center" data-readmore-toggle="rmjs-4" aria-controls="rmjs-4"><a href="#" class="text-uppercase">xem thêm</a></div>
+                    </div>
+                </div>
+                <div class="uk-grid-margin uk-first-column">
+                    <div class="item_faq uk-position-relative h-100">
+                        <h5 class="title1">Sử dụng Ginskin bao lâu thì có hiệu quả ?</h5>
+                        <article class="uk-overflow-hidden" data-readmore="" aria-expanded="false" id="rmjs-5" style="max-height: none; height: 55px;">
+                            <p>Chiết xuất thông đỏ: Theo nghiên cứu lâm sàng khi dùng 100m/ngày trong vòng 28 ngày da sẽ sáng dần. ít đỏ hơn,  giảm nám hơn. </p>
+                            <p>Readmore.js is tested with—and supported on—all versions of jQuery greater than 1.9.1. All the "good" browsers are supported, as well as IE10+; IE8 &amp; 9 should work, but are not supported and the experience will not be ideal.</p>
+                            <p>A smooth, responsive jQuery plugin for collapsing and expanding long blocks of text with "Read more" and "Close" links.</p>
+                        </article><div class="text-center mt-4 uk-position-bottom-center" data-readmore-toggle="rmjs-5" aria-controls="rmjs-5"><a href="#" class="text-uppercase">xem thêm</a></div>
+                    </div>
+                </div>
+                <div class="uk-grid-margin">
+                    <div class="item_faq uk-position-relative h-100">
+                        <h5 class="title1">So sánh kem trị nám Ginskin với một số sản phẩm khác</h5>
+                        <article class="uk-overflow-hidden" data-readmore="" aria-expanded="false" id="rmjs-6" style="max-height: none; height: 55px;">
+                            <p>Chiết xuất thông đỏ: Theo nghiên cứu lâm sàng khi dùng 100m/ngày trong vòng 28 ngày da sẽ sáng dần. ít đỏ hơn,  giảm nám hơn. </p>
+                            <p>Readmore.js is tested with—and supported on—all versions of jQuery greater than 1.9.1. All the "good" browsers are supported, as well as IE10+; IE8 &amp; 9 should work, but are not supported and the experience will not be ideal.</p>
+                            <p>A smooth, responsive jQuery plugin for collapsing and expanding long blocks of text with "Read more" and "Close" links.</p>
+                        </article><div class="text-center mt-4 uk-position-bottom-center" data-readmore-toggle="rmjs-6" aria-controls="rmjs-6"><a href="#" class="text-uppercase">xem thêm</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-margin-large">
+                <div class="uk-child-width-1-2 uk-grid-collapse uk-flex-bottom faq1 uk-grid" uk-grid="">
+                    <div class="text-right uk-width-expand uk-width-1-2@s uk-first-column">
+                        <b class="mr-3 text-nowrap">Bạn muốn đặt câu hỏi tư vấn?</b>
+                    </div>
+                    <div class="text-left uk-width-auto uk-width-1-2@s">
+                        <a href="#" class="uk-button uk-button-danger">TƯ VẤN NGAY</a>
+                    </div>
+                </div>
+                <div class="uk-child-width-1-2 uk-grid-collapse uk-flex-bottom faq1 uk-grid" uk-grid="">
+                    <div class="text-right uk-first-column">
+                        <span class="txt">Hotline</span>
+                    </div>
+                    <div class="text-left">
+                        <span class="phone">024.6262.7788</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $('article').readmore({
+            speed: 75,
+            heightMargin: 16,
+            collapsedHeight: 55,
+            moreLink: '<div class="text-center mt-4 uk-position-bottom-center"><a href="#" class="text-uppercase">xem thêm</a></div>',
+            lessLink: '<div class="text-center mt-4 uk-position-bottom-center"><a href="#" class="text-uppercase">đóng lại</a></div>',
+        });
+    </script>
+    <div class="uk-section-small">
+        <div class="uk-container">
+            <div class="uk-flex uk-flex-center">
+                <div class="fb-comments fb_iframe_widget fb_iframe_widget_fluid_desktop" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="5" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;container_width=0&amp;height=100&amp;href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2Fcomments%23configurator&amp;locale=vi_VN&amp;numposts=5&amp;sdk=joey&amp;version=v3.1&amp;width=550"><span style="vertical-align: bottom; width: 550px; height: 628px;"><iframe name="f1636fa73d79ce4" width="550px" height="100px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:comments Facebook Social Plugin" src="/landingpage/comments.html" style="border: none; visibility: visible; width: 550px; height: 628px;" class=""></iframe></span></div>
+            </div>
+        </div>
+    </div>
+	<footer id="footer" class="py-3 bg-color1 text-center text-white">© 2018 Hoang Anh IEC., JSC. All rights reserved</footer>
+</section>
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="/landingpage/__Bz3h5RzMx.html" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.1';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script src="/landingpage/script.min.js"></script>
+<script>run('0adb29828de3e6ab-d192e300fcec5cbb54e910eb-171d4637314a957bb7d30b66f0be8cc4bf9ec9f637710e76eeaffbe4fbfe5c', 'js_session1', false);</script>
+</body></html>

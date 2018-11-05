@@ -1,0 +1,1224 @@
+/**/
+@font-face {
+	font-family: UTM-Neo;
+	src: url(../fonts/UTM-Neo-Sans-Intel.ttf) format("truetype")/*,
+	url(../fonts/MyriadPro-Regular.eot#iefix) format(’embedded-opentype’),
+	url(../fonts/MyriadPro-Regular.woff) format(‘woff’)*/;
+	font-weight: normal;
+	font-style: normal;
+}
+.no-gutter
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+body, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6
+{
+	font-family: "UTM-Neo",sans-serif;
+	color: #333;
+}
+.header__item__txt
+{
+	padding-left: 40px;
+}
+a:hover, a:focus
+{
+	text-decoration: none;
+}
+.no_pd_left
+{
+	padding-left: 0;
+}
+.no_pd_right
+{
+	padding-right: 0;
+}
+.w_100
+{
+	width: 100%;
+}
+/**/
+.footer
+{
+	padding-top: 20px;
+	background: url(../images/bg_footer.png) no-repeat center center #98259E / cover;
+	display: inline-block;
+	width: 100%;
+}
+.block_footer_top, .copyright
+{
+	display: inline-block;
+	width: 100%;
+}
+.block_footer_top h3
+{
+	margin-bottom: 10px;
+	color: #fff;
+	font-size: 25px;
+	font-weight: 700;
+}
+.block_taiungdung
+{
+	width: 250px;
+	float: left;
+}
+.menu_footer
+{
+	float: right;
+	width: 65%;
+}
+.menu_footer .block_footer
+{
+	display: inline-block;
+	float: left;
+	vertical-align: top;
+	width: 40%;
+}
+.menu_footer .block_footer h3
+{
+	padding-bottom: 10px;
+	color: #fff;
+}
+.menu_footer .block_footer h4
+{
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	display: inline-block;
+	width: 100%;
+}
+.menu_footer .block_footer h4,.menu_footer .block_footer span
+{
+	color: #fff;
+}
+.menu_footer .block_footer ul li
+{
+	display: inline-block;
+	width: 100%;
+	margin: 3px 0;
+	color: #fff;
+	background: url(../images/bullet_footer.png) no-repeat left center;
+	padding-left: 15px;
+}
+.menu_footer .block_footer ul li a
+{
+	color: #fff;
+}
+.copyright
+{
+	margin: 20px 0;
+	color: #fff;
+	border-top: 1px solid #fff;
+	display: inline-block;
+	width: 100%;
+	padding-top: 20px;
+}
+.copyright a
+{
+	color: #fff;
+}
+/*Social menu*/
+.social_footer
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.social_footer li
+{
+	display: inline;
+}
+.social_menu ul li
+{
+	float: left;
+	width: 20%;
+	text-align: center;
+	padding-top: 5px;
+}
+/*Phan chung*/
+.block_title
+{
+	color: #98259E;
+	background: url(../images/line_blocktile.png) no-repeat center bottom;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-weight: bold;
+	display: inline-block;
+	widows: 100%;
+	text-align: center;
+}
+.block_title_left
+{
+	color: #98259E;
+	background: url(../images/line_blocktile.png) no-repeat left bottom;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-weight: 400;
+	display: inline-block;
+	widows: 100%;
+	text-align: left;
+	font-size: 18px;
+}
+.chat_support
+{
+	position: fixed;
+	bottom: 30px;
+	right: 20px;
+}
+/*Header top*/
+.header_top 
+{
+    margin: 10px 0;
+    display: inline-block;
+    width: 100%;
+}
+.header__item__logo
+{
+	margin-top: 10px;
+	display: inline-block;
+}
+.hotline_diachi
+{
+	float: right;
+	width: 560px;
+}
+.hotline_diachi .hotline
+{
+	background: url(../images/line_bltop.png) no-repeat center right;
+	margin-right: 20px;
+	padding-right: 20px;
+}
+.hotline_diachi .hotline span
+{
+	color: #973693;
+	font-weight: bold;
+}
+.diachi_top
+{
+	background: url(../images/icon_map.png) no-repeat left center;
+}
+.diachi_top .bl_dctop
+{
+	display: inline-block;
+	margin-left: 20px;
+	padding-left: 20px;
+	background: url(../images/line_bltop.png) no-repeat left center;
+}
+.diachi_top .bl_dctop:first-child
+{
+	background: none;
+}
+/*Menu Home*/
+.menu_home
+{
+	background-color: #98259E;
+	padding: 10px 0;
+	display: inline-block;
+	width: 100%;
+	float: left;
+}
+.menu_home a
+{
+	color: #fff;
+	display: inline-block;
+	margin: 0 5px;
+}
+.menu_home a:first-child
+{
+	margin-left: 0;
+}
+.menu_home .menu__inner
+{
+	width: 94%;
+	float: left;
+}
+.search
+{
+	float: right;
+	padding-top: 5px;
+	margin-left: 5px;
+	position: relative;
+}
+.search_bar {
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    right: 0;
+    width: 215px;
+    top: 0;
+    display: none;
+}
+.search_bar input {
+    border: none;
+    padding: 0 5px;
+    border-radius: 3px;
+    outline: none;
+}
+.btn_search_m 
+{
+    border: none;
+    background-color: #D2CCE6;
+    border-radius: 3px;
+    outline: none;
+    float: right;
+    line-height: 22px;
+}
+.search_bar input {
+    border: none;
+    padding: 0 5px;
+    border-radius: 3px;
+    height: 24px;
+    line-height: 26px;
+}
+.btn_search_m i
+{
+	color: #98259E;
+}
+.cart
+{
+	float: right;
+	padding-top: 5px;
+}
+/*Block nguoi dung chia se*/
+.nguoi_chiase
+{
+	display: inline-block;
+	width: 100%;
+}
+.nguoi_chiase li {
+    display: inline-block;
+    width: 33.33%;
+    vertical-align: top;
+    float: left;
+    padding: 0 30px;
+}
+.nguoi_chiase li img
+{
+	width: 100%;
+	border: 1px solid #ccc;
+}
+.name_nd
+{
+	display: inline-block;
+	width: 100%;
+	background-color: #973693;
+	color: #fff;
+	padding: 5px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-weight: 700;
+}
+.name_nd span
+{
+	font-weight: 400;
+}
+.lead_nd
+{
+	display: inline-block;
+	width: 100%;
+	text-align: left;
+	font-weight: 600;
+	color: #323031;
+}
+/*Block trị nám home*/
+.block_cachtrinam ul li
+{
+	display: inline-block;
+	float: left;
+	width: 50%;
+	padding: 25px;
+}
+.block_cachtrinam ul li .img_trinam
+{
+	position: relative;
+	border: 1px solid #eec3f1;
+}
+.block_cachtrinam ul li:first-child .timhieu_trinam
+{
+	position: absolute;
+	right: 20px;
+	top: 30px;
+	width: 50%;
+	text-align: right;
+}
+.block_cachtrinam ul li:last-child .timhieu_trinam
+{
+	position: absolute;
+	left: 20px;
+	top: 30px;
+	width: 40%;
+	text-align: left;
+}
+.block_cachtrinam ul li .timhieu_trinam .title_trinam
+{
+	text-transform: uppercase;
+	color: #98259E;
+	font-size: 22px;
+	display: inline-block;
+	
+}
+.block_cachtrinam ul li:first-child .timhieu_trinam .title_trinam
+{
+	background: url(../images/line_blocktile.png) no-repeat right bottom;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.block_cachtrinam ul li:last-child .timhieu_trinam .title_trinam
+{
+	background: url(../images/line_blocktile.png) no-repeat left bottom;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.block_cachtrinam ul li:first-child .vm_trinam
+{
+	position: absolute;
+	right: 20px;
+	bottom: 30px;
+}
+.block_cachtrinam ul li:last-child .vm_trinam
+{
+	position: absolute;
+	left: 20px;
+	bottom: 30px;
+}
+.block_cachtrinam ul li .vm_trinam a
+{
+	background-color: #98259E;
+	padding: 3px 20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	display: inline-block;
+}
+.block_cachtrinam ul li .vm_trinam a:hover
+{
+	background-color: #ca0ed4;
+}
+/*Hỏi đáp chuyên gia*/
+.block_hoidap
+{
+	display: inline-block;
+	width: 100%;
+}
+.block_hoidap .ds_hoidap
+{
+	background: url(../images/bg_hoidapcg.png) no-repeat left center;
+	padding: 20px 0;
+	display: inline-block;
+	width: 100%;
+}
+.block_hoidap ul
+{
+	display: inline-block;
+	width: 50%;
+	float: right;
+}
+.block_hoidap ul li
+{
+	width: 250px;
+	float: left;
+	padding: 20px;
+	background-color: #fff;
+	padding: 30px 10px;
+	margin: 10px;
+	text-align: center;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+	position: relative;
+}
+.block_hoidap ul li img
+{
+	margin-bottom: 10px;
+}
+.block_hoidap ul li .title_hd a
+{
+	font-weight: bold;
+	font-size: 18px;
+}
+.hover_hd
+{
+	display: none;
+}
+.title_hover_hd
+{
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.block_hoidap ul li:hover a
+{
+	color: #fff;
+}
+.block_hoidap ul li:hover .hover_hd
+{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../images/img-xam.png) no-repeat center center #9C2BA5;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+	padding: 20px;
+	color: #fff;
+}
+/*Block cau tra loi*/
+.bl_cautraloi .title_aw
+{
+	color: #B33CBA;
+	font-size: 20px;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.toggle_asw
+{
+	margin-top: 20px;
+}
+.toggle_asw a
+{
+	margin: 0 10px;
+	font-size: 18px;
+}
+.toggle_asw a.active
+{
+	color: #B33CBA;
+}
+/*Danh sách tất cả các câu hỏi*/
+.all_cauhoi ul li
+{
+	display: inline-block;
+	width: 48%;
+	float: left;
+	margin-right: 15px;
+	background: url(../images/bull_allch.png) no-repeat left center;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	padding-top: 9px;
+	margin-bottom: 5px;
+}
+.viewall_cauhoi
+{
+	display: inline-block;
+	margin: 30px 0;
+}
+.viewall_cauhoi a
+{
+	color: #B33CBA;
+}
+/*Block benh*/
+.block_benh
+{
+	display: inline-block;
+	margin-top: 20px;
+	width: 100%;
+}
+.block_benh .news-block__item__img
+{
+	position: relative;
+}
+.block_benh .news-block__inner__txt
+{
+	position: absolute;
+	top: 70px;
+	right: 20px;
+	width: 50%;
+	text-align: right;
+}
+.block_benh .news-block_vall
+{
+	position: absolute;
+	top: 30px;
+	right: 20px;
+}
+.block_benh .news-block_vall a
+{
+	color: #fff;
+	background-color: #B33CBA;
+	display: inline-block;
+	padding: 5px 15px;
+	line-height: 22px;
+	font-weight: bold;
+}
+.block_benh .news-block_title
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: inline-block;
+	width: 100%;
+	padding: 10px;
+	text-align: left;
+	background-color: #B33CBA;
+	opacity: 0.7;
+}
+.block_benh .news-block_title a
+{
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+}
+/*Danh sach bai*/
+.ds_bai .news-block__item__img
+{
+	display: inline-block;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.ds_bai .news-block__item img
+{
+	width: 100%;
+	border: 1px solid #98259E;
+}
+.ds_bai .news-block_lead
+{
+	display: inline-block;
+	width: 100%;
+	margin-top: 5px;
+}
+.ds_bai .news-block__inner__txt a
+{
+	font-weight: bold;
+	line-height: 20px;
+}
+/*Chi tiết bài viết*/
+.bl_ndchitiet_right ul li
+{
+	display: inline-block;
+	width: 100%;
+	border-bottom: 1px solid #98259E;
+	padding-bottom: 10px;
+}
+.bl_ndchitiet_right ul li:last-child
+{
+	border-bottom: none;
+}
+.bl_ndchitiet_right ul li:hover
+{
+	background-color: #B33CBA;
+}
+.bl_ndchitiet_right ul li:hover a
+{
+	color: #fff;
+}
+.bl_ndchitiet_right ul li a
+{
+	width: 100%;
+	padding: 5px;
+	font-weight: bold;
+	display: inline-block;
+}
+.nd_chitiet h1
+{
+	color: #B33CBA;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+.tt_ndchitiet ul
+{
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.tt_ndchitiet ul li
+{
+	display: inline-block;
+	margin-right: 15px;
+	font-size: 12px;
+}
+.tt_ndchitiet ul li i
+{
+	margin-right: 5px;
+}
+/*Block cac san pham ginnic*/
+.sp_ginic
+{
+	display: inline-block;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.sp_ginic ul li
+{
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+/*Form dat hang*/
+.block_dathang
+{
+	background: #DAC7EF;
+	display: inline-block;
+	width: 100%;
+	padding: 30px 0;
+	position: relative;
+	float: left;
+}
+.icon_th
+{
+	position: absolute;
+    right: 15%;
+    bottom: -65px;
+}
+.form_dathang
+{
+	width: 900px;
+	margin: 0 auto;
+}
+.f_item
+{
+	display: inline-block;
+	margin-bottom: 15px;
+}
+.tongtien
+{
+	display: inline-block;
+	width: 100%;
+	padding-right: 15px;
+}
+.tongtien label
+{
+	width: 100%;
+	display: inline-block;
+	color: #8E1391;
+	font-size: 20px;
+	text-align: right;
+	font-weight: 400;
+}
+.tongtien span.total_money
+{
+	font-weight: bold;
+	font-size: 22px;
+	color: #8E1391;
+}
+.tongtien span.total_money b
+{
+	font-size: 18px;
+	vertical-align: top;
+}
+.btn_dhngay
+{
+	background: url(../images/btn_dathang.png) no-repeat center center;
+	border: none;
+	width: 229px;
+	height: 53px;
+	color: #fff;
+	font-size: 22px;
+	outline: none;
+}
+.text_giamgia
+{
+	font-size: 25px;
+	font-weight: bold;
+	color: #973693;
+	float: left;
+}
+.text_giamgia strong
+{
+	color: #333;
+}
+.text_giamgia span
+{
+	text-decoration: line-through;
+	color: #7F3F97;
+}
+.giatri_giam
+{
+	float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.giatri_giam .percent_giam {
+    color: #973693;
+    font-size: 50px;
+    text-align: center;
+    width: 260px;
+    height: 79px;
+    margin-left: 20px;
+    background: url(../images/percent_giam.png) no-repeat 0 0;
+    z-index: 2;
+    display: inline-block;
+}
+.giatri_giam .tien_giam {
+    color: #fff;
+    font-size: 50px;
+    background-color: #973693;
+    font-weight: bold;
+    padding: 10px 40px;
+    margin-top: -16px;
+    z-index: 1;
+}
+.hinhanh_sp
+{
+	position: absolute;
+    right: 15%;
+    top: 30px;
+}
+/*Chuyên gia bác sĩ*/
+.chuyengia_bsi ul li
+{
+	display: inline-block;
+	width: 48%;
+	margin: 10px;
+	padding: 20px;
+	float: left;
+}
+.chuyengia_bsi .img_bsi
+{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.chuyengia_bsi .img_bsi img
+{
+	width: 100%;
+}
+.name_bsi
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: inline-block;
+	width: 100%;
+	padding: 5px 10px;
+	background-color: #B33CBA;
+	opacity: 0.7;
+	color: #fff;
+	font-size: 20px;
+}
+.name_bsi span
+{
+	color: #E0CD6E;
+}
+.lead_bsi
+{
+	text-align: justify;
+}
+.icon_thsm
+{
+	position: absolute;
+	bottom: 50px;
+	right: 20px;
+}
+.icon_thsm img
+{
+	width: auto;
+}
+/*Count Down*/
+.clockdiv {
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 154px;
+    background: url(../images/bg_clockdivhome.png) no-repeat  150px bottom;
+}
+.clockdiv > div {
+    padding: 0 5px;
+    display: inline-block;
+    color: #333;
+    vertical-align: top;
+    line-height: 35%;
+    margin-top: 5px;
+    margin-bottom: 6px;
+}
+.clockdiv div > span {
+    display: inline-block;
+    font-size: 25px;
+    border: 1px solid #fff;
+    padding: 14px 10px;
+    vertical-align: top;
+    line-height: 24px;
+    text-align: center;
+    background: #8E1391;
+    color: #fff;
+}
+.clockdiv label {
+    font-size: 16px;
+    float: left;
+    margin-top: 55px;
+}
+.smalltext {
+    font-size: 14px;
+    text-align: center;
+    background-color: #E6E7E8;
+    text-transform: uppercase;
+    padding: 5px;
+}
+/*Danh sách câu hỏi thường gặp*/
+.ds_chthuonggap ul li
+{
+	display: inline-block;
+	width: 45%;
+	margin-right: 20px;
+	float: left;
+	vertical-align: top;
+	border-bottom: 1px solid #B33CBA;
+	padding-bottom: 10px;
+	padding-top: 8px;
+	margin-bottom: 10px;
+	background: url(../images/bullet_cauhoi.png) no-repeat left center;
+	padding-left: 20px;
+}
+.ds_chthuonggap ul li a
+{
+	color: #B33CBA;
+	font-weight: 700;
+}
+.ds_chthuonggap ul li:nth-child(5)
+{
+	border-bottom: none;
+}
+.ds_chthuonggap ul li:last-child
+{
+	border-bottom: none;
+}
+/*Block gửi câu hỏi ngay*/
+.block_guich .btn_guichngay
+{
+	background-color: #973693;
+	font-size: 22px;
+	border: none;
+	color: #fff;
+	padding: 5px 30px;
+	margin-top: 20px;
+}
+/*Len top*/
+#to_top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+  display: none;
+}
+
+/*Menu mobile*/
+.topbar {
+    z-index: 90;
+    display: none;
+    position: fixed;
+    font-size: 12px;
+    width: 100%;
+    transition-duration: 200ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+    transform: translateY(0);
+    background: #fff;
+}
+.icon_menu
+{
+	float: right;
+}
+.head_topbar
+{
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding: 10px 0;
+}
+.head_topbar img
+{
+	width: 55px;
+}
+.head_topbar .icon_menu i {
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: 20px;
+    color: #98259E;
+    width: 20px;
+    text-align: center;
+}
+.menu_ex_mobile
+{
+	width: 100%;
+	display: none;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+.menu_ex_mobile li 
+{
+    display: inline-block;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    background: url(../images/line_menumobile.png) no-repeat center bottom;
+}
+.menu_ex_mobile li:last-child
+{
+	background: none;
+}
+.menu_ex_mobile li.active
+{
+	background-color: #EBEBEC;
+}
+.menu_ex_mobile li.active a
+{
+	color: #333333;
+}
+/*Menu bottom mobile*/
+.bottombar
+{
+	position: fixed;
+	bottom: -1px;
+	width: 100%;
+	z-index: 90;
+	display: none;
+}
+.bottombar ul 
+{
+    display: inline-block;
+    width: 100%;
+    background-color: #E0E1E2;
+    border-top: 1px solid #ddd;
+    padding: 5px 0;
+    float: left;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+.bottombar ul li
+{
+	display: inline-block;
+	width: 33.33%;
+	float: left;
+	text-align: center;
+}
+
+
+@media screen and (max-width: 992px) {
+	.menu_scroll
+	{
+		width: 65%;
+	}
+	.right_scroll
+	{
+		width: 23%;
+	}
+	.header_scroll__inner .btn_card_scroll
+	{
+		width: 100%;
+	}
+	.header_scroll__inner .btn_card_scroll a
+	{
+		width: 100%;
+	}
+	/*Form Dat hang*/
+	.form_dathang
+	{
+		width: 100%;
+	}
+	.icon_th {
+	    position: absolute;
+	    right: 0;
+	    bottom: 0px;
+	    z-index: 1;
+	    width: 150px;
+	}
+	.hinhanh_sp 
+	{
+	    position: absolute;
+	    right: 0;
+	    top: 30px;
+	    width: 200px;
+	}
+	.clockdiv 
+	{
+	    color: #fff;
+	    display: inline-block;
+	    font-weight: 100;
+	    font-size: 30px;
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	    padding-left: 0;
+	    background: url(../images/bg_clockdivhome.png) no-repeat 0 bottom;
+	    width: 100%;
+	}
+	/*Block benh*/
+	.block_benh .news-block__inner__txt
+	{
+		width: 90%;
+	}
+	.block_hoidap ul
+	{
+		width: 100%;
+	}
+	/*Block chuyen gia bsi*/
+	.chuyengia_bsi ul li
+	{
+		width: 47%;
+	}
+	/*All cau hoi*/
+	.all_cauhoi ul li
+	{
+		width: 46%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.container__title
+	{
+		font-size: 16px;
+	}
+	.main_container
+	{
+		padding-top: 70px;
+	}
+	/*An cac thanh phan*/
+	.header_top, .menu_home
+	{
+		display: none;
+	}
+	.header_scroll
+	{
+		display: none !important;
+	}
+	.div_chat, #to_top
+	{
+		display: none !important;
+	}
+	/*Menu mobile*/
+	.topbar
+	{
+		display: block;
+	}
+	.menu_ex_mobile .onoffswitch
+	{
+		display: inline-block;
+		height: 27px;
+		text-align: center;
+		margin-left: 0;
+	}
+	.menu_ex_mobile a:focus
+	{
+		color: #ED2A49;
+	}
+	/*Block banner home*/
+	.block_bannerhome 
+	{
+	    margin-top: 70px;
+	    margin-bottom: 20px;
+	    display: inline-block;
+	}
+	/*Block cach tri nam*/
+	.block_cachtrinam ul li
+	{
+		width: 100%;
+		padding: 0;
+		margin-bottom: 15px;
+	}
+	.block_cachtrinam ul li:first-child .timhieu_trinam
+	{
+		top: 10px;
+		width: 70%;
+	}
+	.block_cachtrinam ul li:last-child .timhieu_trinam
+	{
+		top: 10px;
+		width: 70%;
+	}
+	/*Nguoi dung chia se*/
+	.nguoi_chiase li
+	{
+		width: 100%;
+		padding: 0;
+		margin-bottom: 15px;
+	}
+	/*Hoi dap chuyen gia*/
+	.block_hoidap ul
+	{
+		width: 100%;
+	}
+	.block_hoidap ul li
+	{
+		width: 48%;
+		margin: 3px;
+	}
+	/*block bac si chuyen gia*/
+	.chuyengia_bsi ul li {
+	    width: 100%;
+	    margin: 0;
+	    padding: 0;
+	    margin-bottom: 15px;
+	}
+	/*câu hỏi*/
+	.ds_chthuonggap ul li
+	{
+		width: 100%;
+		margin-right: 0;
+	}
+	.ds_chthuonggap ul li:nth-child(5)
+	{
+		border-bottom: 1px solid #B33CBA;
+	}
+	.all_cauhoi ul li
+	{
+		width: 100%;
+		margin-right: 0;
+	}
+	/*Footer*/
+	.copyright 
+	{
+	    margin: 0;
+	    padding-bottom: 20px;
+	}
+	.copyright div div
+	{
+		text-align: center;
+	}
+	.block_taiungdung
+	{
+		width: 100%;
+	}
+	.menu_footer, .menu_footer .block_footer
+	{
+		width: 100%;
+	}
+	.menu_footer .block_footer
+	{
+		margin-bottom: 15px;
+	}
+	.social_footer
+	{
+		width: 100%;
+	}
+	/*Form Dat hang*/
+	.form_dathang
+	{
+		width: 100%;
+	}
+	.icon_th {
+	    position: absolute;
+	    right: 0;
+	    bottom: 0px;
+	    z-index: 1;
+	    width: 150px;
+	}
+	.hinhanh_sp 
+	{
+	    position: absolute;
+	    right: 0;
+	    top: 30px;
+	    width: 200px;
+	}
+	.clockdiv 
+	{
+	    color: #fff;
+	    display: inline-block;
+	    font-weight: 100;
+	    font-size: 30px;
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	    padding-left: 0;
+	    background: url(../images/bg_clockdivhome.png) no-repeat 0 bottom;
+	    width: 100%;
+	}
+	
+}
