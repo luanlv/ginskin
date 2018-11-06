@@ -474,7 +474,7 @@ body {
     font-size: 13px; }
   .box11 .txt2 {
     font-size: 15px; }
-    
+
 @media (min-width: 768px) {
   .box11 .txt1 {
     font-size: 23px; }
@@ -1356,4 +1356,10 @@ body {
   }
 }
 
+
+@media (max-width: 960px){
+  .img_2 {
+    width: 47%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
