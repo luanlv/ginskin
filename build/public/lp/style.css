@@ -1357,9 +1357,9 @@ body {
 }
 
 
-@media (max-width: 960px){
+@media (min-width: 960px){
   .img_2 {
-    width: 47%;
+    width: 33.33%;
   }
 }
 /*# sourceMappingURL=style.css.map */
