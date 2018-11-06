@@ -1228,3 +1228,42 @@ a:hover, a:focus
 		text-align: center;
 	}
 }
+
+.chiase {
+	margin: 100px 30px;
+}
+
+.cs_header {
+	position: relative;
+	min-height: 150px;
+}
+
+.cs_left {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+}
+.cs_left img {
+	border-radius: 100%;
+}
+.cs_right {
+	padding-left: 180px;
+	color: #973693 !important;
+}
+
+.cs_right h2{
+	color: #973693 !important;
+	font-size: 24px;
+}
+
+.cs_right hr {
+	border-color: #973693 !important;
+	max-width: 150px; margin-left:0;
+}
+
+.cs_body {
+	font-weight: bold;
+}

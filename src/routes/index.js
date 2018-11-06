@@ -26,6 +26,7 @@ export default {
     require('./hoidapchuyengia').default,
     require('./cachtrinam').default,
     require('./cachtritannhang').default,
+    require('./nguoidungchiase').default,
     require('./danhmuc').default,
     require('./tintuc').default,
     require('./baiviet').default,
