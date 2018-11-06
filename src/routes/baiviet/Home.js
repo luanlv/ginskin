@@ -36,10 +36,24 @@ class Home extends React.Component {
               <a href>Xem ngay</a>
             </div>
             <div className="news-block__inner__txt">
-              <h5><a href="#">Tình trạng sức khỏe tim mạch người Việt - Những con số đáng báo động</a></h5>
+              <h5><a href="#">Chống Oxi hoá mạnh gấp 100 lần Vinamin E. Giúp bảo vệ tiến trình tái tạo collagen</a></h5>
             </div>
             <div className="news-block_title">
-              <a href>Bệnh ngoài da</a>
+              <a href>CÁCH TRỊ NÁM TẠI NHÀ</a>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 col-sm-4 news-block__item">
+          <div className="news-block__item__img">
+            <a href="#"><img src="/images/anh_chitiet.png" alt style={{maxHeight: 174}} /></a>
+            <div className="news-block_vall">
+              <a href>Xem ngay</a>
+            </div>
+            <div className="news-block__inner__txt">
+              <h5><a href="#">Chống Oxi hoá mạnh gấp 100 lần Vinamin E. Giúp bảo vệ tiến trình tái tạo collagen</a></h5>
+            </div>
+            <div className="news-block_title">
+              <a href>CÁCH TRỊ NÁM TỪ THIÊN NHIÊN</a>
             </div>
           </div>
         </div>
@@ -50,24 +64,10 @@ class Home extends React.Component {
               <a href>Xem ngay</a>
             </div>
             <div className="news-block__inner__txt">
-              <h5><a href="#">Tình trạng sức khỏe tim mạch người Việt - Những con số đáng báo động</a></h5>
+              <h5><a href="#">Chống Oxi hoá mạnh gấp 100 lần Vinamin E. Giúp bảo vệ tiến trình tái tạo collagen</a></h5>
             </div>
             <div className="news-block_title">
-              <a href>Bệnh ngoài da</a>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4 col-sm-4 news-block__item">
-          <div className="news-block__item__img">
-            <a href="#"><img src="/images/img_tin1.png" alt /></a>
-            <div className="news-block_vall">
-              <a href>Xem ngay</a>
-            </div>
-            <div className="news-block__inner__txt">
-              <h5><a href="#">Tình trạng sức khỏe tim mạch người Việt - Những con số đáng báo động</a></h5>
-            </div>
-            <div className="news-block_title">
-              <a href>Bệnh ngoài da</a>
+              <a href>CÁCH TRỊ NÁM HIỆU QUẢ</a>
             </div>
           </div>
         </div>

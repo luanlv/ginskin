@@ -16,7 +16,7 @@ class Header extends React.Component {
           <nav className="menu_ex_mobile">
             <ul>
               <li><a href>TRANG CHỦ</a></li>
-              <li className="active"><a href="/lp/sp.html" >GINSKIN</a></li>
+              <li className="active"><a href="/lp.html" >GINSKIN</a></li>
               <li><a href>CÁCH TRỊ NÁM</a></li>
               <li><a href="#">CÁCH TRỊ TÀN NHANG</a></li>
               <li><a href>TƯ VẤN DA</a></li>
@@ -61,7 +61,7 @@ class Header extends React.Component {
           <div className="container">
             <div className="menu__inner">
               <a href="/" className="menu__item">TRANG CHỦ</a>
-              <a href="/lp/sp.html" className="menu__item">GINSKIN</a>
+              <a href="/lp.html" className="menu__item">GINSKIN</a>
               <a href="#"className="menu__item">CÁCH TRỊ NÁM</a>
               <a href="#"className="menu__item">CÁCH TRỊ TÀN NHANG</a>
               <a href="#"className="menu__item">TƯ VẤN DA</a>

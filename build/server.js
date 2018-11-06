@@ -808,7 +808,7 @@ class Header extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
               { className: 'active' },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'a',
-                { href: '/lp/sp.html' },
+                { href: '/lp.html' },
                 'GINSKIN'
               )
             ),
@@ -986,7 +986,7 @@ class Header extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'a',
-              { href: '/lp/sp.html', className: 'menu__item' },
+              { href: '/lp.html', className: 'menu__item' },
               'GINSKIN'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -3294,7 +3294,7 @@ class Html extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { name: 'description', content: description }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'apple-touch-icon', href: '/ico.png' }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'icon', type: 'image/png', href: 'ico.png' }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'icon', href: 'favicon.ico' }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { property: 'og:locale', content: 'vi_VN' }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { property: 'og:type', content: 'website' }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { property: 'fb:app_id', content: '1054383868055783' }),
@@ -13176,7 +13176,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                       'a',
                       { href: '#' },
-                      'T\xECnh tr\u1EA1ng s\u1EE9c kh\u1ECFe tim m\u1EA1ch ng\u01B0\u1EDDi Vi\u1EC7t - Nh\u1EEFng con s\u1ED1 \u0111\xE1ng b\xE1o \u0111\u1ED9ng'
+                      'Ch\u1ED1ng Oxi ho\xE1 m\u1EA1nh g\u1EA5p 100 l\u1EA7n Vinamin E. Gi\xFAp b\u1EA3o v\u1EC7 ti\u1EBFn tr\xECnh t\xE1i t\u1EA1o collagen'
                     )
                   )
                 ),
@@ -13186,7 +13186,51 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'a',
                     { href: true },
-                    'B\u1EC7nh ngo\xE0i da'
+                    'C\xC1CH TR\u1ECA N\xC1M T\u1EA0I NH\xC0'
+                  )
+                )
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'col-md-4 col-sm-4 news-block__item' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'news-block__item__img' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { href: '#' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/anh_chitiet.png', alt: true, style: { maxHeight: 174 } })
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'news-block_vall' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: true },
+                    'Xem ngay'
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'news-block__inner__txt' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'h5',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'a',
+                      { href: '#' },
+                      'Ch\u1ED1ng Oxi ho\xE1 m\u1EA1nh g\u1EA5p 100 l\u1EA7n Vinamin E. Gi\xFAp b\u1EA3o v\u1EC7 ti\u1EBFn tr\xECnh t\xE1i t\u1EA1o collagen'
+                    )
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'news-block_title' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: true },
+                    'C\xC1CH TR\u1ECA N\xC1M T\u1EEA THI\xCAN NHI\xCAN'
                   )
                 )
               )
@@ -13220,7 +13264,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                       'a',
                       { href: '#' },
-                      'T\xECnh tr\u1EA1ng s\u1EE9c kh\u1ECFe tim m\u1EA1ch ng\u01B0\u1EDDi Vi\u1EC7t - Nh\u1EEFng con s\u1ED1 \u0111\xE1ng b\xE1o \u0111\u1ED9ng'
+                      'Ch\u1ED1ng Oxi ho\xE1 m\u1EA1nh g\u1EA5p 100 l\u1EA7n Vinamin E. Gi\xFAp b\u1EA3o v\u1EC7 ti\u1EBFn tr\xECnh t\xE1i t\u1EA1o collagen'
                     )
                   )
                 ),
@@ -13230,51 +13274,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'a',
                     { href: true },
-                    'B\u1EC7nh ngo\xE0i da'
-                  )
-                )
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'div',
-              { className: 'col-md-4 col-sm-4 news-block__item' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'news-block__item__img' },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'a',
-                  { href: '#' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/img_tin1.png', alt: true })
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'div',
-                  { className: 'news-block_vall' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'a',
-                    { href: true },
-                    'Xem ngay'
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'div',
-                  { className: 'news-block__inner__txt' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'h5',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '#' },
-                      'T\xECnh tr\u1EA1ng s\u1EE9c kh\u1ECFe tim m\u1EA1ch ng\u01B0\u1EDDi Vi\u1EC7t - Nh\u1EEFng con s\u1ED1 \u0111\xE1ng b\xE1o \u0111\u1ED9ng'
-                    )
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'div',
-                  { className: 'news-block_title' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'a',
-                    { href: true },
-                    'B\u1EC7nh ngo\xE0i da'
+                    'C\xC1CH TR\u1ECA N\xC1M HI\u1EC6U QU\u1EA2'
                   )
                 )
               )
