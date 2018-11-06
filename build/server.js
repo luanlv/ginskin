@@ -13862,7 +13862,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                 { className: 'news-block__item__img' },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'a',
-                  { href: '#' },
+                  { href: '/bai-viet/cach-tri-nam-tai-nha' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/img_tin1.png', alt: true })
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -13870,7 +13870,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   { className: 'news-block_vall' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'a',
-                    { href: true },
+                    { href: '/bai-viet/cach-tri-nam-tai-nha' },
                     'Xem ngay'
                   )
                 ),
@@ -13882,7 +13882,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                       'a',
-                      { href: '#' },
+                      { href: '/bai-viet/cach-tri-nam-tai-nha' },
                       'Ch\u1ED1ng Oxi ho\xE1 m\u1EA1nh g\u1EA5p 100 l\u1EA7n Vinamin E. Gi\xFAp b\u1EA3o v\u1EC7 ti\u1EBFn tr\xECnh t\xE1i t\u1EA1o collagen'
                     )
                   )
@@ -13892,7 +13892,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   { className: 'news-block_title' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'a',
-                    { href: true },
+                    { href: '/bai-viet/cach-tri-nam-tai-nha' },
                     'C\xC1CH TR\u1ECA N\xC1M T\u1EA0I NH\xC0'
                   )
                 )
@@ -13906,7 +13906,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                 { className: 'news-block__item__img' },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'a',
-                  { href: '#' },
+                  { href: '/bai-viet/cach-tri-nam-tu-thien-nhien' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/anh_chitiet.png', alt: true, style: { maxHeight: 174 } })
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -13914,7 +13914,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   { className: 'news-block_vall' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'a',
-                    { href: true },
+                    { href: '/bai-viet/cach-tri-nam-tu-thien-nhien' },
                     'Xem ngay'
                   )
                 ),
@@ -13926,7 +13926,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                       'a',
-                      { href: '#' },
+                      { href: '/bai-viet/cach-tri-nam-tu-thien-nhien' },
                       'Ch\u1ED1ng Oxi ho\xE1 m\u1EA1nh g\u1EA5p 100 l\u1EA7n Vinamin E. Gi\xFAp b\u1EA3o v\u1EC7 ti\u1EBFn tr\xECnh t\xE1i t\u1EA1o collagen'
                     )
                   )
@@ -13936,7 +13936,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   { className: 'news-block_title' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'a',
-                    { href: true },
+                    { href: '/bai-viet/cach-tri-nam-tu-thien-nhien' },
                     'C\xC1CH TR\u1ECA N\xC1M T\u1EEA THI\xCAN NHI\xCAN'
                   )
                 )
@@ -13950,7 +13950,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                 { className: 'news-block__item__img' },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'a',
-                  { href: '#' },
+                  { href: '/bai-viet/cach-tri-nam-hieu-qua' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/img_tin1.png', alt: true })
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -13958,7 +13958,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   { className: 'news-block_vall' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'a',
-                    { href: true },
+                    { href: '/bai-viet/cach-tri-nam-hieu-qua' },
                     'Xem ngay'
                   )
                 ),
@@ -13970,7 +13970,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                       'a',
-                      { href: '#' },
+                      { href: '/bai-viet/cach-tri-nam-hieu-qua' },
                       'Ch\u1ED1ng Oxi ho\xE1 m\u1EA1nh g\u1EA5p 100 l\u1EA7n Vinamin E. Gi\xFAp b\u1EA3o v\u1EC7 ti\u1EBFn tr\xECnh t\xE1i t\u1EA1o collagen'
                     )
                   )
@@ -13980,7 +13980,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   { className: 'news-block_title' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'a',
-                    { href: true },
+                    { href: '/bai-viet/cach-tri-nam-hieu-qua' },
                     'C\xC1CH TR\u1ECA N\xC1M HI\u1EC6U QU\u1EA2'
                   )
                 )
@@ -14293,7 +14293,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                 { className: 'news-block__item__img' },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'a',
-                  { href: '#' },
+                  { href: '/bai-viet/cach-tri-nam-tai-nha' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/img_tin1.png', alt: true })
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -14301,7 +14301,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   { className: 'news-block_vall' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'a',
-                    { href: true },
+                    { href: '/bai-viet/cach-tri-nam-tai-nha' },
                     'Xem ngay'
                   )
                 ),
@@ -14313,7 +14313,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                       'a',
-                      { href: '#' },
+                      { href: '/bai-viet/cach-tri-nam-tai-nha' },
                       'Ch\u1ED1ng Oxi ho\xE1 m\u1EA1nh g\u1EA5p 100 l\u1EA7n Vinamin E. Gi\xFAp b\u1EA3o v\u1EC7 ti\u1EBFn tr\xECnh t\xE1i t\u1EA1o collagen'
                     )
                   )
@@ -14323,7 +14323,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   { className: 'news-block_title' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'a',
-                    { href: true },
+                    { href: '/bai-viet/cach-tri-nam-tai-nha' },
                     'C\xC1CH TR\u1ECA N\xC1M T\u1EA0I NH\xC0'
                   )
                 )
@@ -14337,7 +14337,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                 { className: 'news-block__item__img' },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'a',
-                  { href: '#' },
+                  { href: '/bai-viet/cach-tri-nam-tu-thien-nhien' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/anh_chitiet.png', alt: true, style: { maxHeight: 174 } })
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -14345,7 +14345,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   { className: 'news-block_vall' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'a',
-                    { href: true },
+                    { href: '/bai-viet/cach-tri-nam-tu-thien-nhien' },
                     'Xem ngay'
                   )
                 ),
@@ -14357,7 +14357,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                       'a',
-                      { href: '#' },
+                      { href: '/bai-viet/cach-tri-nam-tu-thien-nhien' },
                       'Ch\u1ED1ng Oxi ho\xE1 m\u1EA1nh g\u1EA5p 100 l\u1EA7n Vinamin E. Gi\xFAp b\u1EA3o v\u1EC7 ti\u1EBFn tr\xECnh t\xE1i t\u1EA1o collagen'
                     )
                   )
@@ -14367,7 +14367,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   { className: 'news-block_title' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'a',
-                    { href: true },
+                    { href: '/bai-viet/cach-tri-nam-tu-thien-nhien' },
                     'C\xC1CH TR\u1ECA N\xC1M T\u1EEA THI\xCAN NHI\xCAN'
                   )
                 )
@@ -14381,7 +14381,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                 { className: 'news-block__item__img' },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'a',
-                  { href: '#' },
+                  { href: '/bai-viet/cach-tri-nam-hieu-qua' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/img_tin1.png', alt: true })
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -14389,7 +14389,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   { className: 'news-block_vall' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'a',
-                    { href: true },
+                    { href: '/bai-viet/cach-tri-nam-hieu-qua' },
                     'Xem ngay'
                   )
                 ),
@@ -14401,7 +14401,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                       'a',
-                      { href: '#' },
+                      { href: '/bai-viet/cach-tri-nam-hieu-qua' },
                       'Ch\u1ED1ng Oxi ho\xE1 m\u1EA1nh g\u1EA5p 100 l\u1EA7n Vinamin E. Gi\xFAp b\u1EA3o v\u1EC7 ti\u1EBFn tr\xECnh t\xE1i t\u1EA1o collagen'
                     )
                   )
@@ -14411,7 +14411,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   { className: 'news-block_title' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'a',
-                    { href: true },
+                    { href: '/bai-viet/cach-tri-nam-hieu-qua' },
                     'C\xC1CH TR\u1ECA N\xC1M HI\u1EC6U QU\u1EA2'
                   )
                 )
