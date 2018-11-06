@@ -35,7 +35,7 @@ export default {
     //   store.dispatch(hideLoading())
     // }
     return {
-      title: seo.title || store.getState().data.post.value.title,
+      title: seo.title || store.getState().data.post.value.title, 
       description: seo.description || store.getState().data.post.value.description,
       seo: seo,
       component: <Layout data={store.getState().data} ><Home post={store.getState().data.post.value} /></Layout>,
