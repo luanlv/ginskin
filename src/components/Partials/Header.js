@@ -17,13 +17,13 @@ class Header extends React.Component {
             <ul>
               <li><a href>TRANG CHỦ</a></li>
               <li className="active"><a href="/lp.html" >GINSKIN</a></li>
-              <li><a href>CÁCH TRỊ NÁM</a></li>
-              <li><a href="#">CÁCH TRỊ TÀN NHANG</a></li>
-              <li><a href>TƯ VẤN DA</a></li>
+              <li><a href="/cach-tri-nam">CÁCH TRỊ NÁM</a></li>
+              <li><a href="/cach-tri-tan-nhang">CÁCH TRỊ TÀN NHANG</a></li>
+              {/* <li><a href>TƯ VẤN DA</a></li> */}
               <li><a href="/hoi-dap-chuyen-gia">HỎI ĐÁP CHUYÊN GIA</a></li>
-              <li><a href>NGƯỜI DÙNG CHIA SẺ</a></li>
-              <li><a href="#">HỆ THỐNG PHÂN PHỐI</a></li>
-              <li><a href>LIÊN HỆ - ĐẶT HÀNG</a></li>
+              <li><a href="/nguoi-dung-chia-se">NGƯỜI DÙNG CHIA SẺ</a></li>
+              <li><a href="/he-thong-phan-phoi">HỆ THỐNG PHÂN PHỐI</a></li>
+              <li><a href="/lien-he">LIÊN HỆ - ĐẶT HÀNG</a></li>
             </ul>
           </nav> 
         </div>
@@ -62,13 +62,13 @@ class Header extends React.Component {
             <div className="menu__inner">
               <a href="/" className="menu__item">TRANG CHỦ</a>
               <a href="/lp.html" className="menu__item">GINSKIN</a>
-              <a href="#"className="menu__item">CÁCH TRỊ NÁM</a>
-              <a href="#"className="menu__item">CÁCH TRỊ TÀN NHANG</a>
-              <a href="#"className="menu__item">TƯ VẤN DA</a>
+              <a href="/cach-tri-nam"className="menu__item">CÁCH TRỊ NÁM</a>
+              <a href="/cach-tri-tan-nhang"className="menu__item">CÁCH TRỊ TÀN NHANG</a>
+              {/* <a href="#"className="menu__item">TƯ VẤN DA</a> */}
               <a href="/hoi-dap-chuyen-gia" className="menu__item">HỎI ĐÁP CHUYÊN GIA</a>
-              <a href="#"className="menu__item">NGƯỜI DÙNG CHIA SẺ</a>
-              <a href="#"className="menu__item">HỆ THỐNG PHÂN PHỐI</a>
-              <a href="#"className="menu__item">LIÊN HỆ - ĐẶT HÀNG</a>
+              <a href="/nguoi-dung-chia-se"className="menu__item">NGƯỜI DÙNG CHIA SẺ</a>
+              <a href="/he-thong-phan-phoi"className="menu__item">HỆ THỐNG PHÂN PHỐI</a>
+              <a href="/lien-he"className="menu__item">LIÊN HỆ - ĐẶT HÀNG</a>
             </div>
             <div className="search">
               <a href="javascript:;" className="search__img"><img src="/images/icon_tk.png" alt /></a>

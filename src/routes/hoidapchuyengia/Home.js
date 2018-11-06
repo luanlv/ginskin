@@ -24,7 +24,7 @@ class Home extends React.Component {
       <div>
   <div className="block_bannerhome">
     <div className="container">
-      <a href><img src="images/banner_cap2.png" alt /></a>
+      <a href="#"><img src="images/banner_cap2.png" alt /></a>
     </div>
   </div>
   {/* Block chuyên gia */}
@@ -70,50 +70,50 @@ class Home extends React.Component {
       <h3 className="text-uppercase block_title text-center w_100">Hỏi đáp chuyên gia</h3>
       <div className="ds_hoidap">
         <ul>
-          <li>
-            <div className="show_hd">
-              <img src="images/sh_hoidap.png" alt />
-              <div className="title_hd"><a href>Cách trị nám</a></div>
-              <div className="hover_hd">
-                <div className="title_hover_hd"><a href>Cách trị nám</a></div>
-                <div className="lead_hover_hd"><a href>Chống Oxy hóa mạnh gấp 100 lần Vitamin E. Giúp bảo vệ tiến trình tái tạo collagen</a></div>
-                <div className="viewall_hover_hd text-right"><a href>Xem thêm</a></div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div className="show_hd">
-              <img src="images/sh_hoidap.png" alt />
-              <div className="title_hd"><a href>Cách trị nám</a></div>
-              <div className="hover_hd">
-                <div className="title_hover_hd"><a href>Cách trị nám</a></div>
-                <div className="lead_hover_hd"><a href>Chống Oxy hóa mạnh gấp 100 lần Vitamin E. Giúp bảo vệ tiến trình tái tạo collagen</a></div>
-                <div className="viewall_hover_hd text-right"><a href>Xem thêm</a></div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div className="show_hd">
-              <img src="images/sh_hoidap.png" alt />
-              <div className="title_hd"><a href>Cách trị nám</a></div>
-              <div className="hover_hd">
-                <div className="title_hover_hd"><a href>Cách trị nám</a></div>
-                <div className="lead_hover_hd"><a href>Chống Oxy hóa mạnh gấp 100 lần Vitamin E. Giúp bảo vệ tiến trình tái tạo collagen</a></div>
-                <div className="viewall_hover_hd text-right"><a href>Xem thêm</a></div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div className="show_hd">
-              <img src="images/sh_hoidap.png" alt />
-              <div className="title_hd"><a href>Cách trị nám</a></div>
-              <div className="hover_hd">
-                <div className="title_hover_hd"><a href>Cách trị nám</a></div>
-                <div className="lead_hover_hd"><a href>Chống Oxy hóa mạnh gấp 100 lần Vitamin E. Giúp bảo vệ tiến trình tái tạo collagen</a></div>
-                <div className="viewall_hover_hd text-right"><a href>Xem thêm</a></div>
-              </div>
-            </div>
-          </li>
+        <li>
+                <div className="show_hd">
+                  <img src="images/sh_hoidap.png" alt />
+                  <div className="title_hd"><a href="/cach-tri-nam">Cách trị nám</a></div>
+                  <div className="hover_hd">
+                    <div className="title_hover_hd"><a href="/cach-tri-nam">Cách trị nám</a></div>
+                    <div className="lead_hover_hd"><a href="/cach-tri-nam">Chống Oxy hóa mạnh gấp 100 lần Vitamin E. Giúp bảo vệ tiến trình tái tạo collagen</a></div>
+                    <div className="viewall_hover_hd text-right"><a href="#">Xem thêm</a></div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="show_hd">
+                  <img src="images/sh_hoidap.png" alt />
+                  <div className="title_hd"><a href="/cach-tri-nam">Cách trị nám</a></div>
+                  <div className="hover_hd">
+                    <div className="title_hover_hd"><a href="/cach-tri-nam">Cách trị nám</a></div>
+                    <div className="lead_hover_hd"><a href="/cach-tri-nam">Chống Oxy hóa mạnh gấp 100 lần Vitamin E. Giúp bảo vệ tiến trình tái tạo collagen</a></div>
+                    <div className="viewall_hover_hd text-right"><a href="#">Xem thêm</a></div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="show_hd">
+                  <img src="images/sh_hoidap.png" alt />
+                  <div className="title_hd"><a href="/cach-tri-nam">Cách trị nám</a></div>
+                  <div className="hover_hd">
+                    <div className="title_hover_hd"><a href="/cach-tri-nam">Cách trị nám</a></div>
+                    <div className="lead_hover_hd"><a href="/cach-tri-nam">Chống Oxy hóa mạnh gấp 100 lần Vitamin E. Giúp bảo vệ tiến trình tái tạo collagen</a></div>
+                    <div className="viewall_hover_hd text-right"><a href="#">Xem thêm</a></div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="show_hd">
+                  <img src="images/sh_hoidap.png" alt />
+                  <div className="title_hd"><a href="/cach-tri-nam">Cách trị nám</a></div>
+                  <div className="hover_hd">
+                    <div className="title_hover_hd"><a href="/cach-tri-nam">Cách trị nám</a></div>
+                    <div className="lead_hover_hd"><a href="/cach-tri-nam">Chống Oxy hóa mạnh gấp 100 lần Vitamin E. Giúp bảo vệ tiến trình tái tạo collagen</a></div>
+                    <div className="viewall_hover_hd text-right"><a href="#">Xem thêm</a></div>
+                  </div>
+                </div>
+              </li>
         </ul>
       </div>
     </div>
@@ -135,9 +135,9 @@ class Home extends React.Component {
         Mầm đậu nành: Tăng tiết nội tiết tố phụ nữa, giảm thâm nám, giảm mất ngủ, kinh nguyệt đều đặn.
         Nhân sâm: tăng cường thể chất, cải thiện tâm trạng. Chống căng thẳng mệt mỏi. Nguyên liệu chiết xuất thông đỏ, cà chua  nhập khẩu ở Pháp
       </div>
-      <div className="toggle_asw w_100 text-center">
-        <a className="active" href>Xem thêm</a>/<a href>Rút gọn</a>
-      </div>
+      {/* <div className="toggle_asw w_100 text-center">
+        <a className="active" href="#">Xem thêm</a>/<a href="#">Rút gọn</a>
+      </div> */}
     </div>
   </div>
   {/* Câu hỏi thường gặp */}
@@ -147,22 +147,52 @@ class Home extends React.Component {
       <div className="ds_chthuonggap">
         <ul>
           <li>
-            <a href>Thành phần và tác dụng của từng thành phần của Ginskin ? </a>
+            <a href="javascript:void(0)"  data-toggle="collapse" data-target="#q1">Thành phần và tác dụng của từng thành phần của Ginskin ? </a>
+            <div id="q1" class="collapse">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
           </li>
           <li>
-            <a href>Thành phần và tác dụng của từng thành phần của Ginskin ? </a>
+            <a href="#">Thành phần và tác dụng của từng thành phần của Ginskin ? </a>
+            <div id="q1" class="collapse">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
           </li>
           <li>
-            <a href>Thành phần và tác dụng của từng thành phần của Ginskin ? </a>
+            <a href="#">Thành phần và tác dụng của từng thành phần của Ginskin ? </a>
+            <div id="q1" class="collapse">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
           </li>
           <li>
-            <a href>Thành phần và tác dụng của từng thành phần của Ginskin ? </a>
+            <a href="#">Thành phần và tác dụng của từng thành phần của Ginskin ? </a>
+            <div id="q1" class="collapse">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
           </li>
           <li>
-            <a href>Thành phần và tác dụng của từng thành phần của Ginskin ? </a>
+            <a href="#">Thành phần và tác dụng của từng thành phần của Ginskin ? </a>
+            <div id="q1" class="collapse">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
           </li>
           <li>
-            <a href>Thành phần và tác dụng của từng thành phần của Ginskin ? </a>
+            <a href="#">Thành phần và tác dụng của từng thành phần của Ginskin ? </a>
+            <div id="q1" class="collapse">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
           </li>
         </ul>
       </div>
@@ -201,26 +231,26 @@ class Home extends React.Component {
     </div>
   </div>
   {/* Block tất cả các câu hỏi */}
-  <div className="block_asque_tg w_100">
+  {/* <div className="block_asque_tg w_100">
     <div className="container">
       <h3 className="text-uppercase block_title_left w_100 text-left">Tất cả các câu hỏi</h3>
       <div className="all_cauhoi">
         <ul>
-          <li><a href>110 cách trị nám với hoa quả tại nhà tốt nhất</a></li>
-          <li><a href>110 cách trị nám với hoa quả tại nhà tốt nhất</a></li>
-          <li><a href>110 cách trị nám với hoa quả tại nhà tốt nhất</a></li>
-          <li><a href>110 cách trị nám với hoa quả tại nhà tốt nhất</a></li>
-          <li><a href>110 cách trị nám với hoa quả tại nhà tốt nhất</a></li>
-          <li><a href>110 cách trị nám với hoa quả tại nhà tốt nhất</a></li>
-          <li><a href>110 cách trị nám với hoa quả tại nhà tốt nhất</a></li>
-          <li><a href>110 cách trị nám với hoa quả tại nhà tốt nhất</a></li>
+          <li><a href="#">110 cách trị nám với hoa quả tại nhà tốt nhất</a></li>
+          <li><a href="#">110 cách trị nám với hoa quả tại nhà tốt nhất</a></li>
+          <li><a href="#">110 cách trị nám với hoa quả tại nhà tốt nhất</a></li>
+          <li><a href="#">110 cách trị nám với hoa quả tại nhà tốt nhất</a></li>
+          <li><a href="#">110 cách trị nám với hoa quả tại nhà tốt nhất</a></li>
+          <li><a href="#">110 cách trị nám với hoa quả tại nhà tốt nhất</a></li>
+          <li><a href="#">110 cách trị nám với hoa quả tại nhà tốt nhất</a></li>
+          <li><a href="#">110 cách trị nám với hoa quả tại nhà tốt nhất</a></li>
         </ul>
       </div>
       <div className="viewall_cauhoi text-center w_100">
-        <a href>Xem thêm</a>
+        <a href="#">Xem thêm</a>
       </div>
     </div>
-  </div>
+  </div> */}
 </div>
     );
   }

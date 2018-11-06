@@ -1222,3 +1222,9 @@ a:hover, a:focus
 	}
 	
 }
+
+@media screen and (max-width: 768px) {
+	.menu__inner {
+		text-align: center;
+	}
+}

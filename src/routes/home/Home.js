@@ -72,20 +72,20 @@ class Home extends React.Component {
               <div className="img_trinam">
                 <img src="images/trinam_1.png" />
                 <div className="timhieu_trinam">
-                  <div className="title_trinam"><a href="#">CÁCH TRỊ NÁM</a></div>
+                  <div className="title_trinam"><a href="/cach-tri-nam">CÁCH TRỊ NÁM</a></div>
                   <div className="lead_trinam">Chống Oxy hóa mạnh gấp 100 lần Vitamin E. Giúp bảo vệ tiến trình tái tạo collagen </div>
                 </div>
-                <div className="vm_trinam"><a href="$">Tìm hiểu</a></div>
+                <div className="vm_trinam"><a href="/cach-tri-nam">Tìm hiểu</a></div>
               </div>
             </li>
             <li>
               <div className="img_trinam">
                 <img src="images/trinam_2.png" />
                 <div className="timhieu_trinam">
-                  <div className="title_trinam"><a href="#">CÁCH TRỊ TÀN NHAN</a></div>
+                  <div className="title_trinam"><a href="/cach-tri-tan-nhang">CÁCH TRỊ TÀN NHANG</a></div>
                   <div className="lead_trinam">Chống Oxy hóa mạnh gấp 100 lần Vitamin E. Giúp bảo vệ tiến trình tái tạo collagen </div>
                 </div>
-                <div className="vm_trinam"><a href="$">Tìm hiểu</a></div>
+                <div className="vm_trinam"><a href="/cach-tri-tan-nhang">Tìm hiểu</a></div>
               </div>
             </li>
           </ul>
@@ -100,10 +100,10 @@ class Home extends React.Component {
               <li>
                 <div className="show_hd">
                   <img src="images/sh_hoidap.png" alt />
-                  <div className="title_hd"><a href="#">Cách trị nám</a></div>
+                  <div className="title_hd"><a href="/cach-tri-nam">Cách trị nám</a></div>
                   <div className="hover_hd">
-                    <div className="title_hover_hd"><a href="#">Cách trị nám</a></div>
-                    <div className="lead_hover_hd"><a href="#">Chống Oxy hóa mạnh gấp 100 lần Vitamin E. Giúp bảo vệ tiến trình tái tạo collagen</a></div>
+                    <div className="title_hover_hd"><a href="/cach-tri-nam">Cách trị nám</a></div>
+                    <div className="lead_hover_hd"><a href="/cach-tri-nam">Chống Oxy hóa mạnh gấp 100 lần Vitamin E. Giúp bảo vệ tiến trình tái tạo collagen</a></div>
                     <div className="viewall_hover_hd text-right"><a href="#">Xem thêm</a></div>
                   </div>
                 </div>
@@ -113,9 +113,9 @@ class Home extends React.Component {
                   <img src="images/sh_hoidap.png" alt />
                   <div className="title_hd"><a href="#">Cách trị nám</a></div>
                   <div className="hover_hd">
-                    <div className="title_hover_hd"><a href="#">Cách trị nám</a></div>
-                    <div className="lead_hover_hd"><a href="#">Chống Oxy hóa mạnh gấp 100 lần Vitamin E. Giúp bảo vệ tiến trình tái tạo collagen</a></div>
-                    <div className="viewall_hover_hd text-right"><a href="#">Xem thêm</a></div>
+                    <div className="title_hover_hd"><a href="/cach-tri-nam">Cách trị nám</a></div>
+                    <div className="lead_hover_hd"><a href="/cach-tri-nam">Chống Oxy hóa mạnh gấp 100 lần Vitamin E. Giúp bảo vệ tiến trình tái tạo collagen</a></div>
+                    <div className="viewall_hover_hd text-right"><a href="/cach-tri-nam">Xem thêm</a></div>
                   </div>
                 </div>
               </li>
@@ -124,20 +124,20 @@ class Home extends React.Component {
                   <img src="images/sh_hoidap.png" alt />
                   <div className="title_hd"><a href="#">Cách trị nám</a></div>
                   <div className="hover_hd">
-                    <div className="title_hover_hd"><a href="#">Cách trị nám</a></div>
-                    <div className="lead_hover_hd"><a href="#">Chống Oxy hóa mạnh gấp 100 lần Vitamin E. Giúp bảo vệ tiến trình tái tạo collagen</a></div>
-                    <div className="viewall_hover_hd text-right"><a href="#">Xem thêm</a></div>
+                    <div className="title_hover_hd"><a href="/cach-tri-nam">Cách trị nám</a></div>
+                    <div className="lead_hover_hd"><a href="/cach-tri-nam">Chống Oxy hóa mạnh gấp 100 lần Vitamin E. Giúp bảo vệ tiến trình tái tạo collagen</a></div>
+                    <div className="viewall_hover_hd text-right"><a href="/cach-tri-nam">Xem thêm</a></div>
                   </div>
                 </div>
               </li>
               <li>
                 <div className="show_hd">
                   <img src="images/sh_hoidap.png" alt />
-                  <div className="title_hd"><a href="#">Cách trị nám</a></div>
+                  <div className="title_hd"><a href="/cach-tri-nam">Cách trị nám</a></div>
                   <div className="hover_hd">
-                    <div className="title_hover_hd"><a href="#">Cách trị nám</a></div>
-                    <div className="lead_hover_hd"><a href="#">Chống Oxy hóa mạnh gấp 100 lần Vitamin E. Giúp bảo vệ tiến trình tái tạo collagen</a></div>
-                    <div className="viewall_hover_hd text-right"><a href="#">Xem thêm</a></div>
+                    <div className="title_hover_hd"><a href="/cach-tri-nam">Cách trị nám</a></div>
+                    <div className="lead_hover_hd"><a href="/cach-tri-nam">Chống Oxy hóa mạnh gấp 100 lần Vitamin E. Giúp bảo vệ tiến trình tái tạo collagen</a></div>
+                    <div className="viewall_hover_hd text-right"><a href="/cach-tri-nam">Xem thêm</a></div>
                   </div>
                 </div>
               </li>
@@ -237,7 +237,7 @@ class Home extends React.Component {
               <div className="col-md-6 col-sm-12 col-xs-12 f_item">
                 <input type="text" className="form-control" placeholder="Email" />
               </div>
-              <div className="col-md-6 col-sm-12 col-xs-12 f_item">
+              {/* <div className="col-md-6 col-sm-12 col-xs-12 f_item">
                 <select className="form-control">
                   <option value={1}>Sản phẩm</option>
                   <option value={2}>2</option>
@@ -248,11 +248,11 @@ class Home extends React.Component {
                   <option value={1}>Số lượng</option>
                   <option value={2}>2</option>
                 </select>
-              </div>
-              <div className="tongtien">
+              </div> */}
+              {/* <div className="tongtien">
                 <label className="pull-right">Tổng tiền</label>
                 <span className="total_money pull-right">750.000 <b>đ</b></span>
-              </div>
+              </div> */}
             </form>
             <div className="col-md-12 text-center col-sm-12 col-xs-12 f_item">
               <button className="btn_dhngay">Đặt hàng ngay</button>

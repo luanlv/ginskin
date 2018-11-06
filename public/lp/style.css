@@ -469,22 +469,37 @@ body {
     background-image: -webkit-linear-gradient(left, #973B94, #9D519D, #B690C0);
     background-image: -o-linear-gradient(left, #973B94, #9D519D, #B690C0);
     background-image: linear-gradient(to right, #973B94, #9D519D, #B690C0); }
+  
+  .box11 .txt1 {
+    font-size: 13px; }
+  .box11 .txt2 {
+    font-size: 15px; }
+    
+@media (min-width: 768px) {
   .box11 .txt1 {
     font-size: 23px; }
   .box11 .txt2 {
     font-size: 25px; }
-
+}
 .media5 {
   padding: 10px 0; }
   .media5:not(:last-child) {
     border-bottom: 1px solid #973B94; }
   .media5 img {
-    width: 80px; }
+    width: 45px; }
+
   .media5 .media-body {
     font-family: 'UTM Neo Sans IntelBold';
     color: white;
-    font-size: 16px; }
-
+    font-size: 12px; }
+    @media (min-width: 768px) {
+      .media5 .media-body {
+        font-family: 'UTM Neo Sans IntelBold';
+        color: white;
+        font-size: 16px; }
+      .media5 img {
+        width: 80px; }
+    }
 #header {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#33292F), color-stop(rgba(51, 41, 47, 0.3)), to(rgba(51, 41, 47, 0)));
   background-image: -webkit-linear-gradient(top, #33292F, rgba(51, 41, 47, 0.3), rgba(51, 41, 47, 0));
@@ -505,14 +520,25 @@ body {
   @media (min-width: 992px) {
     .box10 {
       min-height: 734px; } }
+
   .box10 .top .title {
     color: #fff;
-    font-size: 30px;
+    font-size: 18px;
     font-family: 'UTM Neo Sans IntelBold'; }
   .box10 .top .desc {
     color: #fff;
-    font-size: 20px;
+    font-size: 12px;
     font-family: 'UTM Neo Sans IntelBold'; }
+  @media (min-width: 768px) {
+    .box10 .top .title {
+      color: #fff;
+      font-size: 30px;
+      font-family: 'UTM Neo Sans IntelBold'; }
+    .box10 .top .desc {
+      color: #fff;
+      font-size: 20px;
+      font-family: 'UTM Neo Sans IntelBold'; }
+  }
   .box10 .bottom {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(rgba(255, 255, 255, 0.51)), to(rgba(255, 255, 255, 0.85)));
     background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.51), rgba(255, 255, 255, 0.85));

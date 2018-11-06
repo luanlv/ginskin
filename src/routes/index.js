@@ -24,6 +24,8 @@ export default {
     require('./lienhedathang').default,
     require('./cauhoithuonggap').default,
     require('./hoidapchuyengia').default,
+    require('./cachtrinam').default,
+    require('./cachtritannhang').default,
     require('./danhmuc').default,
     require('./tintuc').default,
     require('./baiviet').default,
