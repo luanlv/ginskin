@@ -99,17 +99,17 @@ class Home extends React.Component {
         <div className="bai_newest">
           <h3 className="text-uppercase block_title_left w_100 text-left">Bài mới nhất</h3>
           <ul>
-            <li><a href>Trị nám với hoa quả</a></li>
-            <li><a href>Cách trị nám với cà chua</a></li>
-            <li><a href>Trị nám với hoa quả</a></li>
+            <li><a href="/bai-viet/tri-nam-voi-hoa-qua">Trị nám với hoa quả</a></li>
+            <li><a href="/bai-viet/cach-tri-nam-voi-ca-chua">Cách trị nám với cà chua</a></li>
+            <li><a href="/bai-viet/tri-nam-voi-hoa-qua">Trị nám với hoa quả</a></li>
           </ul>
         </div>
         <div className="bai_good">
           <h3 className="text-uppercase block_title_left w_100 text-left">Bài hay nhất</h3>
           <ul>
-            <li><a href>Trị nám với hoa quả</a></li>
-            <li><a href>Cách trị nám với cà chua</a></li>
-            <li><a href>Trị nám với hoa quả</a></li>
+            <li><a href="/bai-viet/tri-nam-voi-hoa-qua">Trị nám với hoa quả</a></li>
+            <li><a href="/bai-viet/cach-tri-nam-voi-ca-chua">Cách trị nám với cà chua</a></li>
+            <li><a href="/bai-viet/tri-nam-voi-hoa-qua">Trị nám với hoa quả</a></li>
           </ul>
         </div>
       </div>
@@ -122,36 +122,36 @@ class Home extends React.Component {
       <div className="ds_bai">
         <div className="row">
           <div className="col-md-3 col-sm-3 news-block__item">
-            <div className="news-block__item__img"><a href="#"><img src="/images/img_tin1.png" alt /></a></div>
+            <div className="news-block__item__img"><a href="/bai-viet/demo"><img src="/images/img_tin1.png" alt /></a></div>
             <div className="news-block__inner__txt">
-              <h5><a href="#">110 cách trị nám với hoa quả tại nhà tốt nhất</a></h5>
+              <h5><a href="/bai-viet/demo">Cách trị nám với hoa quả tại nhà tốt nhất</a></h5>
             </div>
             <div className="news-block_lead">
               Chống Oxy hóa mạnh gấp 100 lần Vitamin E. Giúp bảo vệ tiến trình tái tạo collagen Chống Oxy hóa mạnh gấp 100 lần Vitamin E.
             </div>
           </div>
           <div className="col-md-3 col-sm-3 news-block__item">
-            <div className="news-block__item__img"><a href="#"><img src="/images/img_tin1.png" alt /></a></div>
+            <div className="news-block__item__img"><a href="/bai-viet/demo"><img src="/images/img_tin1.png" alt /></a></div>
             <div className="news-block__inner__txt">
-              <h5><a href="#">110 cách trị nám với hoa quả tại nhà tốt nhất</a></h5>
+              <h5><a href="/bai-viet/demo">Cách trị nám với hoa quả tại nhà tốt nhất</a></h5>
             </div>
             <div className="news-block_lead">
               Chống Oxy hóa mạnh gấp 100 lần Vitamin E. Giúp bảo vệ tiến trình tái tạo collagen Chống Oxy hóa mạnh gấp 100 lần Vitamin E.
             </div>
           </div>
           <div className="col-md-3 col-sm-3 news-block__item">
-            <div className="news-block__item__img"><a href="#"><img src="/images/img_tin1.png" alt /></a></div>
+            <div className="news-block__item__img"><a href="/bai-viet/demo"><img src="/images/img_tin1.png" alt /></a></div>
             <div className="news-block__inner__txt">
-              <h5><a href="#">110 cách trị nám với hoa quả tại nhà tốt nhất</a></h5>
+              <h5><a href="/bai-viet/demo">Cách trị nám với hoa quả tại nhà tốt nhất</a></h5>
             </div>
             <div className="news-block_lead">
               Chống Oxy hóa mạnh gấp 100 lần Vitamin E. Giúp bảo vệ tiến trình tái tạo collagen Chống Oxy hóa mạnh gấp 100 lần Vitamin E.
             </div>
           </div>
           <div className="col-md-3 col-sm-3 news-block__item">
-            <div className="news-block__item__img"><a href="#"><img src="/images/img_tin1.png" alt /></a></div>
+            <div className="news-block__item__img"><a href="/bai-viet/demo"><img src="/images/img_tin1.png" alt /></a></div>
             <div className="news-block__inner__txt">
-              <h5><a href="#">110 cách trị nám với hoa quả tại nhà tốt nhất</a></h5>
+              <h5><a href="/bai-viet/demo">Cách trị nám với hoa quả tại nhà tốt nhất</a></h5>
             </div>
             <div className="news-block_lead">
               Chống Oxy hóa mạnh gấp 100 lần Vitamin E. Giúp bảo vệ tiến trình tái tạo collagen Chống Oxy hóa mạnh gấp 100 lần Vitamin E.
@@ -161,27 +161,7 @@ class Home extends React.Component {
       </div>
     </div>
   </div>
-  {/* Block tất cả các câu hỏi */}
-  <div className="block_asque_tg w_100">
-    <div className="container">
-      <h3 className="text-uppercase block_title_left w_100 text-left">Tất cả các câu hỏi</h3>
-      <div className="all_cauhoi">
-        <ul>
-          <li><a href>110 cách trị nám với hoa quả tại nhà tốt nhất</a></li>
-          <li><a href>110 cách trị nám với hoa quả tại nhà tốt nhất</a></li>
-          <li><a href>110 cách trị nám với hoa quả tại nhà tốt nhất</a></li>
-          <li><a href>110 cách trị nám với hoa quả tại nhà tốt nhất</a></li>
-          <li><a href>110 cách trị nám với hoa quả tại nhà tốt nhất</a></li>
-          <li><a href>110 cách trị nám với hoa quả tại nhà tốt nhất</a></li>
-          <li><a href>110 cách trị nám với hoa quả tại nhà tốt nhất</a></li>
-          <li><a href>110 cách trị nám với hoa quả tại nhà tốt nhất</a></li>
-        </ul>
-      </div>
-      <div className="viewall_cauhoi text-center w_100">
-        <a href>Xem thêm</a>
-      </div>
-    </div>
-  </div>
+
   {/* Block Tư vấn ngay */}
   <h3 className="text-uppercase block_title text-center w_100">Tư vấn ngay</h3>
   <div className="block_dathang block_guich w_100">

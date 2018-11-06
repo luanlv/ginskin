@@ -23,6 +23,7 @@ class Header extends React.Component {
               <li><a href="/hoi-dap-chuyen-gia">HỎI ĐÁP CHUYÊN GIA</a></li>
               <li><a href="/nguoi-dung-chia-se">NGƯỜI DÙNG CHIA SẺ</a></li>
               <li><a href="/he-thong-phan-phoi">HỆ THỐNG PHÂN PHỐI</a></li>
+              <li><a href="/goc-tu-van">GÓC TƯ VẤN</a></li>
               <li><a href="/lien-he">LIÊN HỆ - ĐẶT HÀNG</a></li>
             </ul>
           </nav> 
@@ -68,6 +69,7 @@ class Header extends React.Component {
               <a href="/hoi-dap-chuyen-gia" className="menu__item">HỎI ĐÁP CHUYÊN GIA</a>
               <a href="/nguoi-dung-chia-se"className="menu__item">NGƯỜI DÙNG CHIA SẺ</a>
               <a href="/he-thong-phan-phoi"className="menu__item">HỆ THỐNG PHÂN PHỐI</a>
+              <a href="/goc-tu-van"className="menu__item">GÓC TƯ VẤN</a>
               <a href="/lien-he"className="menu__item">LIÊN HỆ - ĐẶT HÀNG</a>
             </div>
             <div className="search">
