@@ -724,7 +724,7 @@ class Header extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
           { className: 'head_topbar' },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'a',
-            { href: '#' },
+            { href: '/' },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/images/logo.png', alt: true })
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(

@@ -10,7 +10,7 @@ class Header extends React.Component {
       <div>
           <div className="topbar fixed-top clearfix">
           <div className="head_topbar">
-            <a href="#"><img src="/images/logo.png" alt /></a>
+            <a href="/"><img src="/images/logo.png" alt /></a>
             <a className="icon_menu" href="javascript:;"><i className="fa fa-ellipsis-v" aria-hidden="true" /></a>
           </div>
           <nav className="menu_ex_mobile">
